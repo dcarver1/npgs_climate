@@ -1,0 +1,1225 @@
+ID,NPGS site,Type of site,variable,emission,year,value
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,historic,1970-2000,94.83333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,historic,1970-2000,17.496665954589844
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,historic,1970-2000,5.698666572570801
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp126,2021-2040,95.66666412353516
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp245,2021-2040,93.91666412353516
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp370,2021-2040,93.16666412353516
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp585,2021-2040,96.33333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp126,2041-2060,94
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp245,2041-2060,93.5
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp370,2041-2060,95.66666412353516
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp585,2041-2060,92.33333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp126,2061-2080,94.75
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp245,2061-2080,94.5
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp370,2061-2080,92.83333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp585,2061-2080,88.83333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp126,2081-2100,97.83333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp245,2081-2100,96.5
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp370,2081-2100,92.08333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,prec,ssp585,2081-2100,92.58333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp126,2021-2040,19.25
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp245,2021-2040,19.20833396911621
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp370,2021-2040,19.33333396911621
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp585,2021-2040,19.508333206176758
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp126,2041-2060,20.09166717529297
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp245,2041-2060,20.200000762939453
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp370,2041-2060,20.25
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp585,2041-2060,20.608333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp126,2061-2080,20.308334350585938
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp245,2061-2080,20.899999618530273
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp370,2061-2080,21.358333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp585,2061-2080,22.266666412353516
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp126,2081-2100,20.383333206176758
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp245,2081-2100,21.375
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp370,2081-2100,22.766666412353516
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmax,ssp585,2081-2100,23.875
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp126,2021-2040,7.108333110809326
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp245,2021-2040,7.049999713897705
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp370,2021-2040,7.199999809265137
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp585,2021-2040,7.358333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp126,2041-2060,7.791666507720947
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp245,2041-2060,7.9583330154418945
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp370,2041-2060,8.041666984558105
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp585,2041-2060,8.225000381469727
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp126,2061-2080,8.041666984558105
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp245,2061-2080,8.641666412353516
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp370,2061-2080,9.041666984558105
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp585,2061-2080,9.608333587646484
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp126,2081-2100,8.074999809265137
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp245,2081-2100,9.041666030883789
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp370,2081-2100,10.183333396911621
+1,"Corvallis, Oregon",National Clonal Germplasm Repository,tmin,ssp585,2081-2100,11.041666984558105
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,historic,1970-2000,46.33333206176758
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,historic,1970-2000,14.588666915893555
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,historic,1970-2000,2.4779999256134033
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp126,2021-2040,48.58333206176758
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp245,2021-2040,47.5
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp370,2021-2040,47.58333206176758
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp585,2021-2040,49
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp126,2041-2060,49.08333206176758
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp245,2041-2060,49.16666793823242
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp370,2041-2060,49.16666793823242
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp585,2041-2060,48.91666793823242
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp126,2061-2080,49.58333206176758
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp245,2061-2080,50.75
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp370,2061-2080,50.08333206176758
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp585,2061-2080,49.75
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp126,2081-2100,50.5
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp245,2081-2100,51.41666793823242
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp370,2081-2100,51.91666793823242
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",prec,ssp585,2081-2100,52
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp126,2021-2040,16.816667556762695
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp245,2021-2040,16.866666793823242
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp370,2021-2040,17.058332443237305
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp585,2021-2040,17.200000762939453
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp126,2041-2060,17.766666412353516
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp245,2041-2060,17.975000381469727
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp370,2041-2060,18.133333206176758
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp585,2041-2060,18.5
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp126,2061-2080,18.04166603088379
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp245,2061-2080,18.683334350585938
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp370,2061-2080,19.491666793823242
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp585,2061-2080,20.441667556762695
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp126,2081-2100,18.21666717529297
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp245,2081-2100,19.241666793823242
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp370,2081-2100,21.016666412353516
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmax,ssp585,2081-2100,22.33333396911621
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp126,2021-2040,4.300000190734863
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp245,2021-2040,4.275000095367432
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp370,2021-2040,4.483333110809326
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp585,2021-2040,4.724999904632568
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp126,2041-2060,5.116666793823242
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp245,2041-2060,5.358333110809326
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp370,2041-2060,5.5333333015441895
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp585,2041-2060,5.824999809265137
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp126,2061-2080,5.400000095367432
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp245,2061-2080,6.083333492279053
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp370,2061-2080,6.891666889190674
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp585,2061-2080,7.574999809265137
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp126,2081-2100,5.508333206176758
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp245,2081-2100,6.599999904632568
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp370,2081-2100,8.25
+2,"Pullman, Washington","Plant Introduction Station, Genetic stock collection",tmin,ssp585,2081-2100,9.375
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,historic,1970-2000,20.5
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,historic,1970-2000,15.210333824157715
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,historic,1970-2000,0.06399989873170853
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp126,2021-2040,21.16666603088379
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp245,2021-2040,20.5
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp370,2021-2040,20.5
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp585,2021-2040,21.08333396911621
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp126,2041-2060,21.16666603088379
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp245,2041-2060,21.66666603088379
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp370,2041-2060,21.58333396911621
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp585,2041-2060,21.66666603088379
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp126,2061-2080,21.41666603088379
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp245,2061-2080,21.83333396911621
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp370,2061-2080,22.33333396911621
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp585,2061-2080,22.25
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp126,2081-2100,21.83333396911621
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp245,2081-2100,22
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp370,2081-2100,23
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",prec,ssp585,2081-2100,23
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp126,2021-2040,17.90833282470703
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp245,2021-2040,17.866666793823242
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp370,2021-2040,18.174999237060547
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp585,2021-2040,18.21666717529297
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp126,2041-2060,18.816665649414063
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp245,2041-2060,19.008333206176758
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp370,2041-2060,19.183332443237305
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp585,2041-2060,19.450000762939453
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp126,2061-2080,19.09166717529297
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp245,2061-2080,19.766666412353516
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp370,2061-2080,20.54166603088379
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp585,2061-2080,21.483333587646484
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp126,2081-2100,19.183334350585938
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp245,2081-2100,20.383333206176758
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp370,2081-2100,22.09166717529297
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmax,ssp585,2081-2100,23.366666793823242
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp126,2021-2040,2.508333444595337
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp245,2021-2040,2.383333444595337
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp370,2021-2040,2.7083332538604736
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp585,2021-2040,2.866666555404663
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp126,2041-2060,3.299999952316284
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp245,2041-2060,3.5999999046325684
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp370,2041-2060,3.808333158493042
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp585,2041-2060,4.058333396911621
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp126,2061-2080,3.6416666507720947
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp245,2061-2080,4.416666507720947
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp370,2061-2080,5.275000095367432
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp585,2061-2080,6.125
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp126,2081-2100,3.6666667461395264
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp245,2081-2100,4.9666666984558105
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp370,2081-2100,6.791666507720947
+3,"Aberdeen, Idaho","Crop collection, Genetic stock collection (2)",tmin,ssp585,2081-2100,7.991666316986084
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,historic,1970-2000,42.08333206176758
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,historic,1970-2000,23.54366683959961
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,historic,1970-2000,8.455666542053223
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp126,2021-2040,41.25
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp245,2021-2040,39.66666793823242
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp370,2021-2040,39.25
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp585,2021-2040,41.16666793823242
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp126,2041-2060,42.66666793823242
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp245,2041-2060,42.25
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp370,2041-2060,40.5
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp585,2041-2060,41.83333206176758
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp126,2061-2080,42.58333206176758
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp245,2061-2080,44.75
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp370,2061-2080,46.25
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp585,2061-2080,42
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp126,2081-2100,42.41666793823242
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp245,2081-2100,44.41666793823242
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp370,2081-2100,42.16666793823242
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",prec,ssp585,2081-2100,42.08333206176758
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp126,2021-2040,25.424999237060547
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp245,2021-2040,25.433332443237305
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp370,2021-2040,25.558332443237305
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp585,2021-2040,25.625
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp126,2041-2060,26.20833396911621
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp245,2041-2060,26.308334350585938
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp370,2041-2060,26.475000381469727
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp585,2041-2060,26.65833282470703
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp126,2061-2080,26.34166717529297
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp245,2061-2080,26.91666603088379
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp370,2061-2080,27.391666412353516
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp585,2061-2080,28.291667938232422
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp126,2081-2100,26.508333206176758
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp245,2081-2100,27.375
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp370,2081-2100,28.808332443237305
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmax,ssp585,2081-2100,29.875
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp126,2021-2040,10.050000190734863
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp245,2021-2040,10.008333206176758
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp370,2021-2040,10.183333396911621
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp585,2021-2040,10.291666984558105
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp126,2041-2060,10.824999809265137
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp245,2041-2060,10.983333587646484
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp370,2041-2060,11.091667175292969
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp585,2041-2060,11.300000190734863
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp126,2061-2080,10.991666793823242
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp245,2061-2080,11.633333206176758
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp370,2061-2080,12.191666603088379
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp585,2061-2080,12.866666793823242
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp126,2081-2100,11.083333015441895
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp245,2081-2100,12.024999618530273
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp370,2081-2100,13.441666603088379
+4,"Davis, California","National Clonal Germplasm Repository, Genetic stock collection",tmin,ssp585,2081-2100,14.416666984558105
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,historic,1970-2000,24.91666603088379
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,historic,1970-2000,24.418333053588867
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,historic,1970-2000,9.854666709899902
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp126,2021-2040,24.66666603088379
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp245,2021-2040,23.58333396911621
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp370,2021-2040,23.91666603088379
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp585,2021-2040,24.58333396911621
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp126,2041-2060,25.33333396911621
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp245,2041-2060,25.25
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp370,2041-2060,24.16666603088379
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp585,2041-2060,25.66666603088379
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp126,2061-2080,25.58333396911621
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp245,2061-2080,26.75
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp370,2061-2080,27.08333396911621
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp585,2061-2080,26
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp126,2081-2100,24.75
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp245,2081-2100,25.41666603088379
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp370,2081-2100,25.25
+5,"Parlier, California",Specialized  (warm-season arid environment),prec,ssp585,2081-2100,24.66666603088379
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp126,2021-2040,26.566667556762695
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp245,2021-2040,26.608333587646484
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp370,2021-2040,26.700000762939453
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp585,2021-2040,26.733333587646484
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp126,2041-2060,27.233333587646484
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp245,2041-2060,27.41666603088379
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp370,2041-2060,27.66666603088379
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp585,2041-2060,27.708332061767578
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp126,2061-2080,27.399999618530273
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp245,2061-2080,27.933332443237305
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp370,2061-2080,28.491666793823242
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp585,2061-2080,29.358333587646484
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp126,2081-2100,27.59166717529297
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp245,2081-2100,28.483333587646484
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp370,2081-2100,29.924999237060547
+5,"Parlier, California",Specialized  (warm-season arid environment),tmax,ssp585,2081-2100,31.066667556762695
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp126,2021-2040,11.574999809265137
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp245,2021-2040,11.608333587646484
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp370,2021-2040,11.791666984558105
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp585,2021-2040,11.808333396911621
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp126,2041-2060,12.333333015441895
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp245,2041-2060,12.566666603088379
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp370,2041-2060,12.699999809265137
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp585,2041-2060,12.875
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp126,2061-2080,12.449999809265137
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp245,2061-2080,13.125
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp370,2061-2080,13.791666984558105
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp585,2061-2080,14.52500057220459
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp126,2081-2100,12.541666984558105
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp245,2081-2100,13.524999618530273
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp370,2081-2100,15.108333587646484
+5,"Parlier, California",Specialized  (warm-season arid environment),tmin,ssp585,2081-2100,16.141666412353516
+6,"Riverside, California",National Clonal Germplasm Repository,prec,historic,1970-2000,27.5
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,historic,1970-2000,26.17099952697754
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,historic,1970-2000,10.560333251953125
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp126,2021-2040,27.25
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp245,2021-2040,26.83333396911621
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp370,2021-2040,26.75
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp585,2021-2040,26.91666603088379
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp126,2041-2060,28.16666603088379
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp245,2041-2060,28.91666603088379
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp370,2041-2060,26.58333396911621
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp585,2041-2060,29.08333396911621
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp126,2061-2080,29.33333396911621
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp245,2061-2080,30.33333396911621
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp370,2061-2080,30.5
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp585,2061-2080,30
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp126,2081-2100,28
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp245,2081-2100,27.91666603088379
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp370,2081-2100,29.33333396911621
+6,"Riverside, California",National Clonal Germplasm Repository,prec,ssp585,2081-2100,28.08333396911621
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp126,2021-2040,28.225000381469727
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp245,2021-2040,28.200000762939453
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp370,2021-2040,28.33333396911621
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp585,2021-2040,28.350000381469727
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp126,2041-2060,28.84166717529297
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp245,2041-2060,28.983333587646484
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp370,2041-2060,29.21666717529297
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp585,2041-2060,29.233333587646484
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp126,2061-2080,28.96666717529297
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp245,2061-2080,29.46666717529297
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp370,2061-2080,30.024999618530273
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp585,2061-2080,30.79166603088379
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp126,2081-2100,29.174999237060547
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp245,2081-2100,30.024999618530273
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp370,2081-2100,31.325000762939453
+6,"Riverside, California",National Clonal Germplasm Repository,tmax,ssp585,2081-2100,32.40833282470703
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp126,2021-2040,12.433333396911621
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp245,2021-2040,12.375
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp370,2021-2040,12.600000381469727
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp585,2021-2040,12.591666221618652
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp126,2041-2060,13.158333778381348
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp245,2041-2060,13.375
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp370,2041-2060,13.491666793823242
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp585,2041-2060,13.716666221618652
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp126,2061-2080,13.308333396911621
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp245,2061-2080,13.933333396911621
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp370,2061-2080,14.616666793823242
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp585,2061-2080,15.408332824707031
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp126,2081-2100,13.358333587646484
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp245,2081-2100,14.375
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp370,2081-2100,15.966666221618652
+6,"Riverside, California",National Clonal Germplasm Repository,tmin,ssp585,2081-2100,17.058332443237305
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,historic,1970-2000,212.5833282470703
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,historic,1970-2000,25.407333374023438
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,historic,1970-2000,17.818666458129883
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp126,2021-2040,216.0833282470703
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp245,2021-2040,213.4166717529297
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp370,2021-2040,210.6666717529297
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp585,2021-2040,214.3333282470703
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp126,2041-2060,216.4166717529297
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp245,2041-2060,216.5833282470703
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp370,2041-2060,215.9166717529297
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp585,2041-2060,220.5
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp126,2061-2080,219.0833282470703
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp245,2061-2080,217.25
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp370,2061-2080,218.5
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp585,2061-2080,230.5833282470703
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp126,2081-2100,211.5833282470703
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp245,2081-2100,214.75
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp370,2081-2100,239.5833282470703
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,prec,ssp585,2081-2100,249.5
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp126,2021-2040,26.758333206176758
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp245,2021-2040,26.641666412353516
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp370,2021-2040,26.758333206176758
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp585,2021-2040,26.95833396911621
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp126,2041-2060,27.325000762939453
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp245,2041-2060,27.53333282470703
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp370,2041-2060,27.600000381469727
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp585,2041-2060,27.758333206176758
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp126,2061-2080,27.5
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp245,2061-2080,27.983333587646484
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp370,2061-2080,28.34166717529297
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp585,2061-2080,29.008333206176758
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp126,2081-2100,27.54166603088379
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp245,2081-2100,28.325000762939453
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp370,2081-2100,29.41666603088379
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmax,ssp585,2081-2100,30.266666412353516
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp126,2021-2040,19.16666603088379
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp245,2021-2040,19.049999237060547
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp370,2021-2040,19.15833282470703
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp585,2021-2040,19.375
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp126,2041-2060,19.691665649414063
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp245,2041-2060,19.91666603088379
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp370,2041-2060,19.991666793823242
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp585,2041-2060,20.174999237060547
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp126,2061-2080,19.90833282470703
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp245,2061-2080,20.358333587646484
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp370,2061-2080,20.758333206176758
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp585,2061-2080,21.433334350585938
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp126,2081-2100,19.92500114440918
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp245,2081-2100,20.70833396911621
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp370,2081-2100,21.825000762939453
+7,"Hilo, Hawaii",National Clonal Germplasm Repository,tmin,ssp585,2081-2100,22.70833396911621
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,historic,1970-2000,33.08333206176758
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,historic,1970-2000,17.409334182739258
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,historic,1970-2000,1.5080000162124634
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp126,2021-2040,33.75
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp245,2021-2040,33.5
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp370,2021-2040,32.83333206176758
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp585,2021-2040,34.16666793823242
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp126,2041-2060,33.91666793823242
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp245,2041-2060,34
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp370,2041-2060,33.83333206176758
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp585,2041-2060,33.16666793823242
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp126,2061-2080,34.25
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp245,2061-2080,34
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp370,2061-2080,32.66666793823242
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp585,2061-2080,33.75
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp126,2081-2100,33.91666793823242
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp245,2081-2100,33.33333206176758
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp370,2081-2100,33.41666793823242
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,prec,ssp585,2081-2100,33.08333206176758
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp126,2021-2040,19.71666717529297
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp245,2021-2040,19.625
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp370,2021-2040,19.899999618530273
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp585,2021-2040,19.899999618530273
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp126,2041-2060,20.399999618530273
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp245,2041-2060,20.616666793823242
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp370,2041-2060,20.941665649414063
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp585,2041-2060,21.108333587646484
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp126,2061-2080,20.600000381469727
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp245,2061-2080,21.358333587646484
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp370,2061-2080,22.20833396911621
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp585,2061-2080,22.84166717529297
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp126,2081-2100,20.825000762939453
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp245,2081-2100,21.96666717529297
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp370,2081-2100,23.549999237060547
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmax,ssp585,2081-2100,24.79166603088379
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp126,2021-2040,3.616666793823242
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp245,2021-2040,3.558333396911621
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp370,2021-2040,3.816666603088379
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp585,2021-2040,3.9666666984558105
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp126,2041-2060,4.358333587646484
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp245,2041-2060,4.650000095367432
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp370,2041-2060,4.858333110809326
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp585,2041-2060,5.074999809265137
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp126,2061-2080,4.583333492279053
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp245,2061-2080,5.366666793823242
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp370,2061-2080,6.175000190734863
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp585,2061-2080,6.816666603088379
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp126,2081-2100,4.666666507720947
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp245,2081-2100,5.866666793823242
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp370,2081-2100,7.4666666984558105
+8,"Ft Collins, Colorado",National Laboratory for Genetic Resource Preservation,tmin,ssp585,2081-2100,8.574999809265137
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,historic,1970-2000,85.5
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,historic,1970-2000,26.22166633605957
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,historic,1970-2000,13.765000343322754
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp126,2021-2040,88.16666412353516
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp245,2021-2040,85.08333587646484
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp370,2021-2040,85.08333587646484
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp585,2021-2040,85.33333587646484
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp126,2041-2060,85.75
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp245,2041-2060,87.75
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp370,2041-2060,84.08333587646484
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp585,2041-2060,83.58333587646484
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp126,2061-2080,86.08333587646484
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp245,2061-2080,83.5
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp370,2061-2080,81.08333587646484
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp585,2061-2080,85.66666412353516
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp126,2081-2100,86.16666412353516
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp245,2081-2100,85.75
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp370,2081-2100,88.91666412353516
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",prec,ssp585,2081-2100,83.33333587646484
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp126,2021-2040,28.316667556762695
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp245,2021-2040,28.241666793823242
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp370,2021-2040,28.308332443237305
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp585,2021-2040,28.491666793823242
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp126,2041-2060,29.049999237060547
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp245,2041-2060,29.16666603088379
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp370,2041-2060,29.375
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp585,2041-2060,29.5
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp126,2061-2080,29.225000381469727
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp245,2061-2080,29.924999237060547
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp370,2061-2080,30.53333282470703
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp585,2061-2080,30.983333587646484
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp126,2081-2100,29.233333587646484
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp245,2081-2100,30.274999618530273
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp370,2081-2100,31.508333206176758
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmax,ssp585,2081-2100,32.70833206176758
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp126,2021-2040,15.600000381469727
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp245,2021-2040,15.524999618530273
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp370,2021-2040,15.666666030883789
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp585,2021-2040,15.783333778381348
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp126,2041-2060,16.183334350585938
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp245,2041-2060,16.433334350585938
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp370,2041-2060,16.600000381469727
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp585,2041-2060,16.70833396911621
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp126,2061-2080,16.366666793823242
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp245,2061-2080,17.024999618530273
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp370,2061-2080,17.70833396911621
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp585,2061-2080,18.116666793823242
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp126,2081-2100,16.316667556762695
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp245,2081-2100,17.375
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp370,2081-2100,18.741666793823242
+9,"College Station, Texas","National Clonal Germplasm Repository, Crop collection",tmin,ssp585,2081-2100,19.70833396911621
+10,"Ames, Iowa",Plant Introduction Station,prec,historic,1970-2000,70.91666412353516
+10,"Ames, Iowa",Plant Introduction Station,tmax,historic,1970-2000,14.986000061035156
+10,"Ames, Iowa",Plant Introduction Station,tmin,historic,1970-2000,3.194000005722046
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp126,2021-2040,71.08333587646484
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp245,2021-2040,69.91666412353516
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp370,2021-2040,69.5
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp585,2021-2040,69.16666412353516
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp126,2041-2060,69.25
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp245,2041-2060,72.33333587646484
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp370,2041-2060,71.41666412353516
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp585,2041-2060,69.25
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp126,2061-2080,70.91666412353516
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp245,2061-2080,70.41666412353516
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp370,2061-2080,69.25
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp585,2061-2080,67.25
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp126,2081-2100,69.91666412353516
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp245,2081-2100,70.66666412353516
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp370,2081-2100,71.25
+10,"Ames, Iowa",Plant Introduction Station,prec,ssp585,2081-2100,69.08333587646484
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp126,2021-2040,17.65833282470703
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp245,2021-2040,17.633333206176758
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp370,2021-2040,17.78333282470703
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp585,2021-2040,18
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp126,2041-2060,18.558334350585938
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp245,2041-2060,18.616666793823242
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp370,2041-2060,18.950000762939453
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp585,2041-2060,19.399999618530273
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp126,2061-2080,18.858333587646484
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp245,2061-2080,19.46666717529297
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp370,2061-2080,20.441665649414063
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp585,2061-2080,21.266666412353516
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp126,2081-2100,19.04166603088379
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp245,2081-2100,20.05000114440918
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp370,2081-2100,21.899999618530273
+10,"Ames, Iowa",Plant Introduction Station,tmax,ssp585,2081-2100,23.350000381469727
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp126,2021-2040,5.4083333015441895
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp245,2021-2040,5.391666412353516
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp370,2021-2040,5.5
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp585,2021-2040,5.7833333015441895
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp126,2041-2060,6.183333396911621
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp245,2041-2060,6.391666412353516
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp370,2041-2060,6.708333492279053
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp585,2041-2060,6.983333587646484
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp126,2061-2080,6.474999904632568
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp245,2061-2080,7.083333492279053
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp370,2061-2080,7.950000286102295
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp585,2061-2080,8.641666412353516
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp126,2081-2100,6.616666793823242
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp245,2081-2100,7.650000095367432
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp370,2081-2100,9.341666221618652
+10,"Ames, Iowa",Plant Introduction Station,tmin,ssp585,2081-2100,10.600000381469727
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,historic,1970-2000,84.25
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,historic,1970-2000,16.73900032043457
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,historic,1970-2000,5.714000225067139
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp126,2021-2040,86.5
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp245,2021-2040,85.25
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp370,2021-2040,86.16666412353516
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp585,2021-2040,87.5
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp126,2041-2060,87.41666412353516
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp245,2041-2060,88.83333587646484
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp370,2041-2060,86.75
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp585,2041-2060,85.5
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp126,2061-2080,88.5
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp245,2061-2080,88.16666412353516
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp370,2061-2080,87
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp585,2061-2080,86.16666412353516
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp126,2081-2100,87.08333587646484
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp245,2081-2100,88.16666412353516
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp370,2081-2100,89.41666412353516
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",prec,ssp585,2081-2100,88.91666412353516
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp126,2021-2040,19.366666793823242
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp245,2021-2040,19.25
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp370,2021-2040,19.325000762939453
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp585,2021-2040,19.566667556762695
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp126,2041-2060,20.08333396911621
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp245,2041-2060,20.274999618530273
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp370,2041-2060,20.674999237060547
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp585,2041-2060,20.991666793823242
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp126,2061-2080,20.46666717529297
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp245,2061-2080,21.008333206176758
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp370,2061-2080,21.950000762939453
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp585,2061-2080,22.65833282470703
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp126,2081-2100,20.57499885559082
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp245,2081-2100,21.66666603088379
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp370,2081-2100,23.358333587646484
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmax,ssp585,2081-2100,24.674999237060547
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp126,2021-2040,7.950000286102295
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp245,2021-2040,7.833333492279053
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp370,2021-2040,7.925000190734863
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp585,2021-2040,8.175000190734863
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp126,2041-2060,8.574999809265137
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp245,2041-2060,8.833333015441895
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp370,2041-2060,9.175000190734863
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp585,2041-2060,9.408332824707031
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp126,2061-2080,8.941666603088379
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp245,2061-2080,9.5
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp370,2061-2080,10.333333015441895
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp585,2061-2080,10.933333396911621
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp126,2081-2100,9.050000190734863
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp245,2081-2100,10.066666603088379
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp370,2081-2100,11.675000190734863
+11,"Urbana, Illinois","Crop collection, Genetic stock collection",tmin,ssp585,2081-2100,12.816666603088379
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,historic,1970-2000,106.08333587646484
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,historic,1970-2000,22.29199981689453
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,historic,1970-2000,10.89133358001709
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp126,2021-2040,109.08333587646484
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp245,2021-2040,108.5
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp370,2021-2040,109.75
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp585,2021-2040,110.41666412353516
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp126,2041-2060,109.75
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp245,2041-2060,113.5
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp370,2041-2060,109.66666412353516
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp585,2041-2060,111.33333587646484
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp126,2061-2080,113.83333587646484
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp245,2061-2080,110.33333587646484
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp370,2061-2080,114.25
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp585,2061-2080,115.83333587646484
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp126,2081-2100,110.41666412353516
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp245,2081-2100,112.33333587646484
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp370,2081-2100,116.08333587646484
+12,"Stuttgart, Arkansas",Genetic stock collection,prec,ssp585,2081-2100,114.58333587646484
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp126,2021-2040,24.683332443237305
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp245,2021-2040,24.5
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp370,2021-2040,24.59166717529297
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp585,2021-2040,24.766666412353516
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp126,2041-2060,25.308332443237305
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp245,2041-2060,25.46666717529297
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp370,2041-2060,25.774999618530273
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp585,2041-2060,25.899999618530273
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp126,2061-2080,25.516666412353516
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp245,2061-2080,26.141666412353516
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp370,2061-2080,26.850000381469727
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp585,2061-2080,27.45833396911621
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp126,2081-2100,25.566667556762695
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp245,2081-2100,26.625
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp370,2081-2100,28.15833282470703
+12,"Stuttgart, Arkansas",Genetic stock collection,tmax,ssp585,2081-2100,29.33333396911621
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp126,2021-2040,12.766666412353516
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp245,2021-2040,12.675000190734863
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp370,2021-2040,12.800000190734863
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp585,2021-2040,12.933333396911621
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp126,2041-2060,13.258333206176758
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp245,2041-2060,13.591667175292969
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp370,2041-2060,13.841667175292969
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp585,2041-2060,13.941666603088379
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp126,2061-2080,13.550000190734863
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp245,2061-2080,14.141666412353516
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp370,2061-2080,14.858333587646484
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp585,2061-2080,15.324999809265137
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp126,2081-2100,13.491666793823242
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp245,2081-2100,14.558333396911621
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp370,2081-2100,16.075000762939453
+12,"Stuttgart, Arkansas",Genetic stock collection,tmin,ssp585,2081-2100,17
+13,Columbus,Crop collection,prec,historic,1970-2000,79.66666412353516
+13,Columbus,Crop collection,tmax,historic,1970-2000,17.34666633605957
+13,Columbus,Crop collection,tmin,historic,1970-2000,5.706666469573975
+13,Columbus,Crop collection,prec,ssp126,2021-2040,83.25
+13,Columbus,Crop collection,prec,ssp245,2021-2040,80.25
+13,Columbus,Crop collection,prec,ssp370,2021-2040,80.91666412353516
+13,Columbus,Crop collection,prec,ssp585,2021-2040,81.75
+13,Columbus,Crop collection,prec,ssp126,2041-2060,83.25
+13,Columbus,Crop collection,prec,ssp245,2041-2060,83.83333587646484
+13,Columbus,Crop collection,prec,ssp370,2041-2060,82.16666412353516
+13,Columbus,Crop collection,prec,ssp585,2041-2060,82.16666412353516
+13,Columbus,Crop collection,prec,ssp126,2061-2080,84.33333587646484
+13,Columbus,Crop collection,prec,ssp245,2061-2080,84.5
+13,Columbus,Crop collection,prec,ssp370,2061-2080,82.91666412353516
+13,Columbus,Crop collection,prec,ssp585,2061-2080,83.5
+13,Columbus,Crop collection,prec,ssp126,2081-2100,83.08333587646484
+13,Columbus,Crop collection,prec,ssp245,2081-2100,83.5
+13,Columbus,Crop collection,prec,ssp370,2081-2100,85.66666412353516
+13,Columbus,Crop collection,prec,ssp585,2081-2100,84.16666412353516
+13,Columbus,Crop collection,tmax,ssp126,2021-2040,19.808332443237305
+13,Columbus,Crop collection,tmax,ssp245,2021-2040,19.66666603088379
+13,Columbus,Crop collection,tmax,ssp370,2021-2040,19.774999618530273
+13,Columbus,Crop collection,tmax,ssp585,2021-2040,20.016666412353516
+13,Columbus,Crop collection,tmax,ssp126,2041-2060,20.441667556762695
+13,Columbus,Crop collection,tmax,ssp245,2041-2060,20.733333587646484
+13,Columbus,Crop collection,tmax,ssp370,2041-2060,21.108333587646484
+13,Columbus,Crop collection,tmax,ssp585,2041-2060,21.366666793823242
+13,Columbus,Crop collection,tmax,ssp126,2061-2080,20.875
+13,Columbus,Crop collection,tmax,ssp245,2061-2080,21.383333206176758
+13,Columbus,Crop collection,tmax,ssp370,2061-2080,22.28333282470703
+13,Columbus,Crop collection,tmax,ssp585,2061-2080,23.008333206176758
+13,Columbus,Crop collection,tmax,ssp126,2081-2100,20.91666603088379
+13,Columbus,Crop collection,tmax,ssp245,2081-2100,22.05000114440918
+13,Columbus,Crop collection,tmax,ssp370,2081-2100,23.733333587646484
+13,Columbus,Crop collection,tmax,ssp585,2081-2100,25.03333282470703
+13,Columbus,Crop collection,tmin,ssp126,2021-2040,7.858333110809326
+13,Columbus,Crop collection,tmin,ssp245,2021-2040,7.741666793823242
+13,Columbus,Crop collection,tmin,ssp370,2021-2040,7.858333587646484
+13,Columbus,Crop collection,tmin,ssp585,2021-2040,8.091667175292969
+13,Columbus,Crop collection,tmin,ssp126,2041-2060,8.491666793823242
+13,Columbus,Crop collection,tmin,ssp245,2041-2060,8.800000190734863
+13,Columbus,Crop collection,tmin,ssp370,2041-2060,9.116666793823242
+13,Columbus,Crop collection,tmin,ssp585,2041-2060,9.324999809265137
+13,Columbus,Crop collection,tmin,ssp126,2061-2080,8.908333778381348
+13,Columbus,Crop collection,tmin,ssp245,2061-2080,9.441666603088379
+13,Columbus,Crop collection,tmin,ssp370,2061-2080,10.208333015441895
+13,Columbus,Crop collection,tmin,ssp585,2061-2080,10.816666603088379
+13,Columbus,Crop collection,tmin,ssp126,2081-2100,8.949999809265137
+13,Columbus,Crop collection,tmin,ssp245,2081-2100,9.983333587646484
+13,Columbus,Crop collection,tmin,ssp370,2081-2100,11.591667175292969
+13,Columbus,Crop collection,tmin,ssp585,2081-2100,12.675000190734863
+14,Sturgeon Bay,Crop collection,prec,historic,1970-2000,65.58333587646484
+14,Sturgeon Bay,Crop collection,tmax,historic,1970-2000,11.545999526977539
+14,Sturgeon Bay,Crop collection,tmin,historic,1970-2000,1.71833336353302
+14,Sturgeon Bay,Crop collection,prec,ssp126,2021-2040,67.83333587646484
+14,Sturgeon Bay,Crop collection,prec,ssp245,2021-2040,66.66666412353516
+14,Sturgeon Bay,Crop collection,prec,ssp370,2021-2040,66.08333587646484
+14,Sturgeon Bay,Crop collection,prec,ssp585,2021-2040,66.41666412353516
+14,Sturgeon Bay,Crop collection,prec,ssp126,2041-2060,66.91666412353516
+14,Sturgeon Bay,Crop collection,prec,ssp245,2041-2060,67.83333587646484
+14,Sturgeon Bay,Crop collection,prec,ssp370,2041-2060,67.08333587646484
+14,Sturgeon Bay,Crop collection,prec,ssp585,2041-2060,66.58333587646484
+14,Sturgeon Bay,Crop collection,prec,ssp126,2061-2080,67.91666412353516
+14,Sturgeon Bay,Crop collection,prec,ssp245,2061-2080,66.75
+14,Sturgeon Bay,Crop collection,prec,ssp370,2061-2080,66.75
+14,Sturgeon Bay,Crop collection,prec,ssp585,2061-2080,66.41666412353516
+14,Sturgeon Bay,Crop collection,prec,ssp126,2081-2100,67.41666412353516
+14,Sturgeon Bay,Crop collection,prec,ssp245,2081-2100,67.66666412353516
+14,Sturgeon Bay,Crop collection,prec,ssp370,2081-2100,68.75
+14,Sturgeon Bay,Crop collection,prec,ssp585,2081-2100,68
+14,Sturgeon Bay,Crop collection,tmax,ssp126,2021-2040,14.274999618530273
+14,Sturgeon Bay,Crop collection,tmax,ssp245,2021-2040,14.191666603088379
+14,Sturgeon Bay,Crop collection,tmax,ssp370,2021-2040,14.233333587646484
+14,Sturgeon Bay,Crop collection,tmax,ssp585,2021-2040,14.558333396911621
+14,Sturgeon Bay,Crop collection,tmax,ssp126,2041-2060,15.033333778381348
+14,Sturgeon Bay,Crop collection,tmax,ssp245,2041-2060,15.300000190734863
+14,Sturgeon Bay,Crop collection,tmax,ssp370,2041-2060,15.608333587646484
+14,Sturgeon Bay,Crop collection,tmax,ssp585,2041-2060,16.04166603088379
+14,Sturgeon Bay,Crop collection,tmax,ssp126,2061-2080,15.541666984558105
+14,Sturgeon Bay,Crop collection,tmax,ssp245,2061-2080,16.16666603088379
+14,Sturgeon Bay,Crop collection,tmax,ssp370,2061-2080,17.09166717529297
+14,Sturgeon Bay,Crop collection,tmax,ssp585,2061-2080,17.891666412353516
+14,Sturgeon Bay,Crop collection,tmax,ssp126,2081-2100,15.625
+14,Sturgeon Bay,Crop collection,tmax,ssp245,2081-2100,16.766666412353516
+14,Sturgeon Bay,Crop collection,tmax,ssp370,2081-2100,18.674999237060547
+14,Sturgeon Bay,Crop collection,tmax,ssp585,2081-2100,20.100000381469727
+14,Sturgeon Bay,Crop collection,tmin,ssp126,2021-2040,4.2166666984558105
+14,Sturgeon Bay,Crop collection,tmin,ssp245,2021-2040,4.125
+14,Sturgeon Bay,Crop collection,tmin,ssp370,2021-2040,4.141666412353516
+14,Sturgeon Bay,Crop collection,tmin,ssp585,2021-2040,4.491666793823242
+14,Sturgeon Bay,Crop collection,tmin,ssp126,2041-2060,4.933333396911621
+14,Sturgeon Bay,Crop collection,tmin,ssp245,2041-2060,5.25
+14,Sturgeon Bay,Crop collection,tmin,ssp370,2041-2060,5.5916666984558105
+14,Sturgeon Bay,Crop collection,tmin,ssp585,2041-2060,5.9083333015441895
+14,Sturgeon Bay,Crop collection,tmin,ssp126,2061-2080,5.441666603088379
+14,Sturgeon Bay,Crop collection,tmin,ssp245,2061-2080,6.133333206176758
+14,Sturgeon Bay,Crop collection,tmin,ssp370,2061-2080,6.949999809265137
+14,Sturgeon Bay,Crop collection,tmin,ssp585,2061-2080,7.791666507720947
+14,Sturgeon Bay,Crop collection,tmin,ssp126,2081-2100,5.525000095367432
+14,Sturgeon Bay,Crop collection,tmin,ssp245,2081-2100,6.733333587646484
+14,Sturgeon Bay,Crop collection,tmin,ssp370,2081-2100,8.600000381469727
+14,Sturgeon Bay,Crop collection,tmin,ssp585,2081-2100,9.983333587646484
+15,Griffin,Plant Introduction Station,prec,historic,1970-2000,108
+15,Griffin,Plant Introduction Station,tmax,historic,1970-2000,22.86566734313965
+15,Griffin,Plant Introduction Station,tmin,historic,1970-2000,10.264666557312012
+15,Griffin,Plant Introduction Station,prec,ssp126,2021-2040,114.33333587646484
+15,Griffin,Plant Introduction Station,prec,ssp245,2021-2040,115.33333587646484
+15,Griffin,Plant Introduction Station,prec,ssp370,2021-2040,114.33333587646484
+15,Griffin,Plant Introduction Station,prec,ssp585,2021-2040,112.58333587646484
+15,Griffin,Plant Introduction Station,prec,ssp126,2041-2060,116.66666412353516
+15,Griffin,Plant Introduction Station,prec,ssp245,2041-2060,117.66666412353516
+15,Griffin,Plant Introduction Station,prec,ssp370,2041-2060,115.08333587646484
+15,Griffin,Plant Introduction Station,prec,ssp585,2041-2060,117.16666412353516
+15,Griffin,Plant Introduction Station,prec,ssp126,2061-2080,118.33333587646484
+15,Griffin,Plant Introduction Station,prec,ssp245,2061-2080,119.91666412353516
+15,Griffin,Plant Introduction Station,prec,ssp370,2061-2080,123.83333587646484
+15,Griffin,Plant Introduction Station,prec,ssp585,2061-2080,122
+15,Griffin,Plant Introduction Station,prec,ssp126,2081-2100,117.75
+15,Griffin,Plant Introduction Station,prec,ssp245,2081-2100,121.91666412353516
+15,Griffin,Plant Introduction Station,prec,ssp370,2081-2100,123.5
+15,Griffin,Plant Introduction Station,prec,ssp585,2081-2100,125.5
+15,Griffin,Plant Introduction Station,tmax,ssp126,2021-2040,24.950000762939453
+15,Griffin,Plant Introduction Station,tmax,ssp245,2021-2040,24.741666793823242
+15,Griffin,Plant Introduction Station,tmax,ssp370,2021-2040,24.924999237060547
+15,Griffin,Plant Introduction Station,tmax,ssp585,2021-2040,25.125
+15,Griffin,Plant Introduction Station,tmax,ssp126,2041-2060,25.508333206176758
+15,Griffin,Plant Introduction Station,tmax,ssp245,2041-2060,25.758333206176758
+15,Griffin,Plant Introduction Station,tmax,ssp370,2041-2060,26.09166717529297
+15,Griffin,Plant Introduction Station,tmax,ssp585,2041-2060,26.17500114440918
+15,Griffin,Plant Introduction Station,tmax,ssp126,2061-2080,25.75
+15,Griffin,Plant Introduction Station,tmax,ssp245,2061-2080,26.308334350585938
+15,Griffin,Plant Introduction Station,tmax,ssp370,2061-2080,27.016666412353516
+15,Griffin,Plant Introduction Station,tmax,ssp585,2061-2080,27.66666603088379
+15,Griffin,Plant Introduction Station,tmax,ssp126,2081-2100,25.700000762939453
+15,Griffin,Plant Introduction Station,tmax,ssp245,2081-2100,26.766666412353516
+15,Griffin,Plant Introduction Station,tmax,ssp370,2081-2100,28.366666793823242
+15,Griffin,Plant Introduction Station,tmax,ssp585,2081-2100,29.441667556762695
+15,Griffin,Plant Introduction Station,tmin,ssp126,2021-2040,12.074999809265137
+15,Griffin,Plant Introduction Station,tmin,ssp245,2021-2040,11.966667175292969
+15,Griffin,Plant Introduction Station,tmin,ssp370,2021-2040,12.108333587646484
+15,Griffin,Plant Introduction Station,tmin,ssp585,2021-2040,12.266666412353516
+15,Griffin,Plant Introduction Station,tmin,ssp126,2041-2060,12.566666603088379
+15,Griffin,Plant Introduction Station,tmin,ssp245,2041-2060,12.925000190734863
+15,Griffin,Plant Introduction Station,tmin,ssp370,2041-2060,13.158332824707031
+15,Griffin,Plant Introduction Station,tmin,ssp585,2041-2060,13.274999618530273
+15,Griffin,Plant Introduction Station,tmin,ssp126,2061-2080,12.808333396911621
+15,Griffin,Plant Introduction Station,tmin,ssp245,2061-2080,13.425000190734863
+15,Griffin,Plant Introduction Station,tmin,ssp370,2061-2080,14.175000190734863
+15,Griffin,Plant Introduction Station,tmin,ssp585,2061-2080,14.675000190734863
+15,Griffin,Plant Introduction Station,tmin,ssp126,2081-2100,12.716666221618652
+15,Griffin,Plant Introduction Station,tmin,ssp245,2081-2100,13.816666603088379
+15,Griffin,Plant Introduction Station,tmin,ssp370,2081-2100,15.375
+15,Griffin,Plant Introduction Station,tmin,ssp585,2081-2100,16.266666412353516
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,historic,1970-2000,74.5
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,historic,1970-2000,13.722000122070313
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,historic,1970-2000,3.424333333969116
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp126,2021-2040,79.08333587646484
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp245,2021-2040,77.16666412353516
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp370,2021-2040,77.75
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp585,2021-2040,77.66666412353516
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp126,2041-2060,79.83333587646484
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp245,2041-2060,80.25
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp370,2041-2060,79.33333587646484
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp585,2041-2060,78.33333587646484
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp126,2061-2080,79.41666412353516
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp245,2061-2080,79.33333587646484
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp370,2061-2080,78
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp585,2061-2080,79.75
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp126,2081-2100,80.75
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp245,2081-2100,81.41666412353516
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp370,2081-2100,81
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",prec,ssp585,2081-2100,81.16666412353516
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp126,2021-2040,16.29166603088379
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp245,2021-2040,16.21666717529297
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp370,2021-2040,16.241666793823242
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp585,2021-2040,16.566667556762695
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp126,2041-2060,16.975000381469727
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp245,2041-2060,17.28333282470703
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp370,2041-2060,17.625
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp585,2041-2060,17.983333587646484
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp126,2061-2080,17.54166603088379
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp245,2061-2080,18.08333396911621
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp370,2061-2080,18.899999618530273
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp585,2061-2080,19.758333206176758
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp126,2081-2100,17.616666793823242
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp245,2081-2100,18.700000762939453
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp370,2081-2100,20.46666717529297
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmax,ssp585,2081-2100,21.84166717529297
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp126,2021-2040,5.799999713897705
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp245,2021-2040,5.758333206176758
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp370,2021-2040,5.75
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp585,2021-2040,6.0333333015441895
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp126,2041-2060,6.516666889190674
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp245,2041-2060,6.816666603088379
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp370,2041-2060,7.141666412353516
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp585,2041-2060,7.425000190734863
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp126,2061-2080,7.058333396911621
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp245,2061-2080,7.666666507720947
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp370,2061-2080,8.324999809265137
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp585,2061-2080,9.149999618530273
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp126,2081-2100,7.200000286102295
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp245,2081-2100,8.274999618530273
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp370,2081-2100,9.933333396911621
+16,Geneva,"Plant Introduction Station, National Clonal Germplasm Repository",tmin,ssp585,2081-2100,11.133333206176758
+17,Beltsville,National Germplasm Resources Laboratory,prec,historic,1970-2000,93
+17,Beltsville,National Germplasm Resources Laboratory,tmax,historic,1970-2000,19.11199951171875
+17,Beltsville,National Germplasm Resources Laboratory,tmin,historic,1970-2000,7.372666358947754
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp126,2021-2040,97.25
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp245,2021-2040,97.91666412353516
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp370,2021-2040,95.58333587646484
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp585,2021-2040,95.75
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp126,2041-2060,100.08333587646484
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp245,2041-2060,99.08333587646484
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp370,2041-2060,97
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp585,2041-2060,99.25
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp126,2061-2080,100.58333587646484
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp245,2061-2080,99.5
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp370,2061-2080,99.91666412353516
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp585,2061-2080,102.75
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp126,2081-2100,100.91666412353516
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp245,2081-2100,103.5
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp370,2081-2100,104.25
+17,Beltsville,National Germplasm Resources Laboratory,prec,ssp585,2081-2100,104.66666412353516
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp126,2021-2040,21.41666603088379
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp245,2021-2040,21.225000381469727
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp370,2021-2040,21.366666793823242
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp585,2021-2040,21.58333396911621
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp126,2041-2060,21.983333587646484
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp245,2041-2060,22.28333282470703
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp370,2041-2060,22.66666603088379
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp585,2041-2060,22.883333206176758
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp126,2061-2080,22.391666412353516
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp245,2061-2080,22.899999618530273
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp370,2061-2080,23.725000381469727
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp585,2061-2080,24.441667556762695
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp126,2081-2100,22.40833282470703
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp245,2081-2100,23.475000381469727
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp370,2081-2100,25.183334350585938
+17,Beltsville,National Germplasm Resources Laboratory,tmax,ssp585,2081-2100,26.433332443237305
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp126,2021-2040,9.466667175292969
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp245,2021-2040,9.350000381469727
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp370,2021-2040,9.449999809265137
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp585,2021-2040,9.625
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp126,2041-2060,10.050000190734863
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp245,2041-2060,10.350000381469727
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp370,2041-2060,10.675000190734863
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp585,2041-2060,10.858333587646484
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp126,2061-2080,10.466667175292969
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp245,2061-2080,10.991666793823242
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp370,2061-2080,11.675000190734863
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp585,2061-2080,12.308333396911621
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp126,2081-2100,10.516666412353516
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp245,2081-2100,11.508333206176758
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp370,2081-2100,13.074999809265137
+17,Beltsville,National Germplasm Resources Laboratory,tmin,ssp585,2081-2100,14.116666793823242
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,historic,1970-2000,88.5
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,historic,1970-2000,19.64466667175293
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,historic,1970-2000,8.050000190734863
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp126,2021-2040,92.41666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp245,2021-2040,93.25
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp370,2021-2040,90.91666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp585,2021-2040,91.33333587646484
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp126,2041-2060,95.33333587646484
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp245,2041-2060,94.58333587646484
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp370,2041-2060,92.66666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp585,2041-2060,94.66666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp126,2061-2080,95.83333587646484
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp245,2061-2080,94.75
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp370,2061-2080,95.33333587646484
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp585,2061-2080,97.83333587646484
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp126,2081-2100,96.16666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp245,2081-2100,98.58333587646484
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp370,2081-2100,99.16666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,prec,ssp585,2081-2100,99.91666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp126,2021-2040,21.96666717529297
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp245,2021-2040,21.758333206176758
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp370,2021-2040,21.891666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp585,2021-2040,22.141666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp126,2041-2060,22.5
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp245,2041-2060,22.825000762939453
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp370,2041-2060,23.191667556762695
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp585,2041-2060,23.424999237060547
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp126,2061-2080,22.941665649414063
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp245,2061-2080,23.41666603088379
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp370,2061-2080,24.25
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp585,2061-2080,24.96666717529297
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp126,2081-2100,22.924999237060547
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp245,2081-2100,24.008333206176758
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp370,2081-2100,25.691667556762695
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmax,ssp585,2081-2100,26.950000762939453
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp126,2021-2040,10.133333206176758
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp245,2021-2040,10.041666984558105
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp370,2021-2040,10.125
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp585,2021-2040,10.300000190734863
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp126,2041-2060,10.716666221618652
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp245,2041-2060,11
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp370,2041-2060,11.333333969116211
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp585,2041-2060,11.516666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp126,2061-2080,11.141666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp245,2061-2080,11.641666412353516
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp370,2061-2080,12.324999809265137
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp585,2061-2080,12.975000381469727
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp126,2081-2100,11.183333396911621
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp245,2081-2100,12.158333778381348
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp370,2081-2100,13.741666793823242
+18,"Washington, D.C.",National Clonal Germplasm Repository,tmin,ssp585,2081-2100,14.75
+19,"Central Ferry, WA",Associated with Pullman,prec,historic,1970-2000,32.41666793823242
+19,"Central Ferry, WA",Associated with Pullman,tmax,historic,1970-2000,17.68866729736328
+19,"Central Ferry, WA",Associated with Pullman,tmin,historic,1970-2000,4.353333473205566
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp126,2021-2040,33.83333206176758
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp245,2021-2040,33.16666793823242
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp370,2021-2040,33.16666793823242
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp585,2021-2040,34.16666793823242
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp126,2041-2060,34.08333206176758
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp245,2041-2060,34.08333206176758
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp370,2041-2060,34
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp585,2041-2060,33.91666793823242
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp126,2061-2080,34.5
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp245,2061-2080,35.08333206176758
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp370,2061-2080,34.75
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp585,2061-2080,34.41666793823242
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp126,2081-2100,35.25
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp245,2081-2100,35.75
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp370,2081-2100,35.75
+19,"Central Ferry, WA",Associated with Pullman,prec,ssp585,2081-2100,36
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp126,2021-2040,19.95833396911621
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp245,2021-2040,20
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp370,2021-2040,20.200000762939453
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp585,2021-2040,20.350000381469727
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp126,2041-2060,20.924999237060547
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp245,2041-2060,21.108333587646484
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp370,2041-2060,21.274999618530273
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp585,2041-2060,21.649999618530273
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp126,2061-2080,21.20833396911621
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp245,2061-2080,21.84166717529297
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp370,2061-2080,22.633333206176758
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp585,2061-2080,23.58333396911621
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp126,2081-2100,21.366666793823242
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp245,2081-2100,22.424999237060547
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp370,2081-2100,24.183332443237305
+19,"Central Ferry, WA",Associated with Pullman,tmax,ssp585,2081-2100,25.475000381469727
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp126,2021-2040,6.191666603088379
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp245,2021-2040,6.1666669845581055
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp370,2021-2040,6.391666412353516
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp585,2021-2040,6.625
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp126,2041-2060,7.008333206176758
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp245,2041-2060,7.258333206176758
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp370,2041-2060,7.441666603088379
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp585,2041-2060,7.708333492279053
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp126,2061-2080,7.316666603088379
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp245,2061-2080,7.991666793823242
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp370,2061-2080,8.77500057220459
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp585,2061-2080,9.5
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp126,2081-2100,7.425000190734863
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp245,2081-2100,8.491666793823242
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp370,2081-2100,10.133333206176758
+19,"Central Ferry, WA",Associated with Pullman,tmin,ssp585,2081-2100,11.274999618530273
+20,"Prosser, WA",Associated with Pullman,prec,historic,1970-2000,16.16666603088379
+20,"Prosser, WA",Associated with Pullman,tmax,historic,1970-2000,17.560333251953125
+20,"Prosser, WA",Associated with Pullman,tmin,historic,1970-2000,4.066333293914795
+20,"Prosser, WA",Associated with Pullman,prec,ssp126,2021-2040,16.66666603088379
+20,"Prosser, WA",Associated with Pullman,prec,ssp245,2021-2040,16.41666603088379
+20,"Prosser, WA",Associated with Pullman,prec,ssp370,2021-2040,16.25
+20,"Prosser, WA",Associated with Pullman,prec,ssp585,2021-2040,16.66666603088379
+20,"Prosser, WA",Associated with Pullman,prec,ssp126,2041-2060,16.66666603088379
+20,"Prosser, WA",Associated with Pullman,prec,ssp245,2041-2060,16.66666603088379
+20,"Prosser, WA",Associated with Pullman,prec,ssp370,2041-2060,16.75
+20,"Prosser, WA",Associated with Pullman,prec,ssp585,2041-2060,16.33333396911621
+20,"Prosser, WA",Associated with Pullman,prec,ssp126,2061-2080,17
+20,"Prosser, WA",Associated with Pullman,prec,ssp245,2061-2080,17.16666603088379
+20,"Prosser, WA",Associated with Pullman,prec,ssp370,2061-2080,16.83333396911621
+20,"Prosser, WA",Associated with Pullman,prec,ssp585,2061-2080,16.5
+20,"Prosser, WA",Associated with Pullman,prec,ssp126,2081-2100,17.25
+20,"Prosser, WA",Associated with Pullman,prec,ssp245,2081-2100,17.16666603088379
+20,"Prosser, WA",Associated with Pullman,prec,ssp370,2081-2100,17.08333396911621
+20,"Prosser, WA",Associated with Pullman,prec,ssp585,2081-2100,17.16666603088379
+20,"Prosser, WA",Associated with Pullman,tmax,ssp126,2021-2040,19.825000762939453
+20,"Prosser, WA",Associated with Pullman,tmax,ssp245,2021-2040,19.825000762939453
+20,"Prosser, WA",Associated with Pullman,tmax,ssp370,2021-2040,20.008333206176758
+20,"Prosser, WA",Associated with Pullman,tmax,ssp585,2021-2040,20.200000762939453
+20,"Prosser, WA",Associated with Pullman,tmax,ssp126,2041-2060,20.808334350585938
+20,"Prosser, WA",Associated with Pullman,tmax,ssp245,2041-2060,20.950000762939453
+20,"Prosser, WA",Associated with Pullman,tmax,ssp370,2041-2060,21.100000381469727
+20,"Prosser, WA",Associated with Pullman,tmax,ssp585,2041-2060,21.483333587646484
+20,"Prosser, WA",Associated with Pullman,tmax,ssp126,2061-2080,21.08333396911621
+20,"Prosser, WA",Associated with Pullman,tmax,ssp245,2061-2080,21.725000381469727
+20,"Prosser, WA",Associated with Pullman,tmax,ssp370,2061-2080,22.45833396911621
+20,"Prosser, WA",Associated with Pullman,tmax,ssp585,2061-2080,23.391666412353516
+20,"Prosser, WA",Associated with Pullman,tmax,ssp126,2081-2100,21.25
+20,"Prosser, WA",Associated with Pullman,tmax,ssp245,2081-2100,22.316665649414063
+20,"Prosser, WA",Associated with Pullman,tmax,ssp370,2081-2100,24
+20,"Prosser, WA",Associated with Pullman,tmax,ssp585,2081-2100,25.266666412353516
+20,"Prosser, WA",Associated with Pullman,tmin,ssp126,2021-2040,5.849999904632568
+20,"Prosser, WA",Associated with Pullman,tmin,ssp245,2021-2040,5.816666603088379
+20,"Prosser, WA",Associated with Pullman,tmin,ssp370,2021-2040,6.0333333015441895
+20,"Prosser, WA",Associated with Pullman,tmin,ssp585,2021-2040,6.258333206176758
+20,"Prosser, WA",Associated with Pullman,tmin,ssp126,2041-2060,6.675000190734863
+20,"Prosser, WA",Associated with Pullman,tmin,ssp245,2041-2060,6.891666889190674
+20,"Prosser, WA",Associated with Pullman,tmin,ssp370,2041-2060,7.0416669845581055
+20,"Prosser, WA",Associated with Pullman,tmin,ssp585,2041-2060,7.333333492279053
+20,"Prosser, WA",Associated with Pullman,tmin,ssp126,2061-2080,6.9666666984558105
+20,"Prosser, WA",Associated with Pullman,tmin,ssp245,2061-2080,7.608333587646484
+20,"Prosser, WA",Associated with Pullman,tmin,ssp370,2061-2080,8.283333778381348
+20,"Prosser, WA",Associated with Pullman,tmin,ssp585,2061-2080,9.016666412353516
+20,"Prosser, WA",Associated with Pullman,tmin,ssp126,2081-2100,7.058333396911621
+20,"Prosser, WA",Associated with Pullman,tmin,ssp245,2081-2100,8.108333587646484
+20,"Prosser, WA",Associated with Pullman,tmin,ssp370,2081-2100,9.641667366027832
+20,"Prosser, WA",Associated with Pullman,tmin,ssp585,2081-2100,10.766666412353516
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,historic,1970-2000,141.8333282470703
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,historic,1970-2000,31.33333396911621
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,historic,1970-2000,18.773332595825195
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp126,2021-2040,141.0833282470703
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp245,2021-2040,136.1666717529297
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp370,2021-2040,138
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp585,2021-2040,137.6666717529297
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp126,2041-2060,142.75
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp245,2041-2060,133.1666717529297
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp370,2041-2060,131.1666717529297
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp585,2041-2060,129.1666717529297
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp126,2061-2080,138.5833282470703
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp245,2061-2080,139.3333282470703
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp370,2061-2080,125.58333587646484
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp585,2061-2080,120.5
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp126,2081-2100,143.75
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp245,2081-2100,135.8333282470703
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp370,2081-2100,112.33333587646484
+21,"Isabela, Puerto Rico",Associated with Mayaguez,prec,ssp585,2081-2100,107
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp126,2021-2040,32.59166717529297
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp245,2021-2040,32.61666488647461
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp370,2021-2040,32.57500076293945
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp585,2021-2040,32.69166564941406
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp126,2041-2060,33.025001525878906
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp245,2041-2060,33.233333587646484
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp370,2041-2060,33.30833435058594
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp585,2041-2060,33.525001525878906
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp126,2061-2080,33.108333587646484
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp245,2061-2080,33.708335876464844
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp370,2061-2080,34.13333511352539
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp585,2061-2080,34.583335876464844
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp126,2081-2100,33.125
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp245,2081-2100,34.04999923706055
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp370,2081-2100,34.95000076293945
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmax,ssp585,2081-2100,35.724998474121094
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp126,2021-2040,20.024999618530273
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp245,2021-2040,20.024999618530273
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp370,2021-2040,20.024999618530273
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp585,2021-2040,20.125
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp126,2041-2060,20.450000762939453
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp245,2041-2060,20.65833282470703
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp370,2041-2060,20.758333206176758
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp585,2041-2060,20.933334350585938
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp126,2061-2080,20.54166603088379
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp245,2061-2080,21.141666412353516
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp370,2061-2080,21.54166603088379
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp585,2061-2080,22.008333206176758
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp126,2081-2100,20.57499885559082
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp245,2081-2100,21.475000381469727
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp370,2081-2100,22.34166717529297
+21,"Isabela, Puerto Rico",Associated with Mayaguez,tmin,ssp585,2081-2100,23.075000762939453
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,historic,1970-2000,94.5
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,historic,1970-2000,29.881000518798828
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,historic,1970-2000,22.70833396911621
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp126,2021-2040,93.33333587646484
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp245,2021-2040,90.33333587646484
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp370,2021-2040,92.25
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp585,2021-2040,91.66666412353516
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp126,2041-2060,94.83333587646484
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp245,2041-2060,90.83333587646484
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp370,2041-2060,87.75
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp585,2041-2060,86.41666412353516
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp126,2061-2080,91.25
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp245,2061-2080,91.66666412353516
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp370,2061-2080,83.33333587646484
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp585,2061-2080,80.5
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp126,2081-2100,95.33333587646484
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp245,2081-2100,89.5
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp370,2081-2100,76.91666412353516
+22,"St Croix, Virgin Islands",Associated with Mayaguez,prec,ssp585,2081-2100,72.25
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp126,2021-2040,31.125
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp245,2021-2040,31.125
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp370,2021-2040,31.100000381469727
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp585,2021-2040,31.233333587646484
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp126,2041-2060,31.54166603088379
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp245,2041-2060,31.733333587646484
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp370,2041-2060,31.79166603088379
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp585,2041-2060,32
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp126,2061-2080,31.600000381469727
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp245,2061-2080,32.18333435058594
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp370,2061-2080,32.58333206176758
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp585,2061-2080,33.016666412353516
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp126,2081-2100,31.649999618530273
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp245,2081-2100,32.53333282470703
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp370,2081-2100,33.358333587646484
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmax,ssp585,2081-2100,34.099998474121094
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp126,2021-2040,23.941665649414063
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp245,2021-2040,23.96666717529297
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp370,2021-2040,23.941665649414063
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp585,2021-2040,24.049999237060547
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp126,2041-2060,24.358333587646484
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp245,2041-2060,24.575000762939453
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp370,2041-2060,24.65833282470703
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp585,2041-2060,24.84166717529297
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp126,2061-2080,24.45833396911621
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp245,2061-2080,25.04166603088379
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp370,2061-2080,25.433332443237305
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp585,2061-2080,25.891666412353516
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp126,2081-2100,24.475000381469727
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp245,2081-2100,25.375
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp370,2081-2100,26.225000381469727
+22,"St Croix, Virgin Islands",Associated with Mayaguez,tmin,ssp585,2081-2100,26.975000381469727
+23,"Thermal, CA",Associated with Riverside,prec,historic,1970-2000,7.583333492279053
+23,"Thermal, CA",Associated with Riverside,tmax,historic,1970-2000,31.389665603637695
+23,"Thermal, CA",Associated with Riverside,tmin,historic,1970-2000,14.177666664123535
+23,"Thermal, CA",Associated with Riverside,prec,ssp126,2021-2040,7.5
+23,"Thermal, CA",Associated with Riverside,prec,ssp245,2021-2040,7.5
+23,"Thermal, CA",Associated with Riverside,prec,ssp370,2021-2040,7.5
+23,"Thermal, CA",Associated with Riverside,prec,ssp585,2021-2040,7.416666507720947
+23,"Thermal, CA",Associated with Riverside,prec,ssp126,2041-2060,7.583333492279053
+23,"Thermal, CA",Associated with Riverside,prec,ssp245,2041-2060,7.833333492279053
+23,"Thermal, CA",Associated with Riverside,prec,ssp370,2041-2060,7.416666507720947
+23,"Thermal, CA",Associated with Riverside,prec,ssp585,2041-2060,7.916666507720947
+23,"Thermal, CA",Associated with Riverside,prec,ssp126,2061-2080,8.083333015441895
+23,"Thermal, CA",Associated with Riverside,prec,ssp245,2061-2080,7.916666507720947
+23,"Thermal, CA",Associated with Riverside,prec,ssp370,2061-2080,8.166666984558105
+23,"Thermal, CA",Associated with Riverside,prec,ssp585,2061-2080,8
+23,"Thermal, CA",Associated with Riverside,prec,ssp126,2081-2100,7.583333492279053
+23,"Thermal, CA",Associated with Riverside,prec,ssp245,2081-2100,7.5
+23,"Thermal, CA",Associated with Riverside,prec,ssp370,2081-2100,8.25
+23,"Thermal, CA",Associated with Riverside,prec,ssp585,2081-2100,8
+23,"Thermal, CA",Associated with Riverside,tmax,ssp126,2021-2040,33.483333587646484
+23,"Thermal, CA",Associated with Riverside,tmax,ssp245,2021-2040,33.44166564941406
+23,"Thermal, CA",Associated with Riverside,tmax,ssp370,2021-2040,33.599998474121094
+23,"Thermal, CA",Associated with Riverside,tmax,ssp585,2021-2040,33.61666488647461
+23,"Thermal, CA",Associated with Riverside,tmax,ssp126,2041-2060,34.125
+23,"Thermal, CA",Associated with Riverside,tmax,ssp245,2041-2060,34.275001525878906
+23,"Thermal, CA",Associated with Riverside,tmax,ssp370,2041-2060,34.516666412353516
+23,"Thermal, CA",Associated with Riverside,tmax,ssp585,2041-2060,34.525001525878906
+23,"Thermal, CA",Associated with Riverside,tmax,ssp126,2061-2080,34.25833511352539
+23,"Thermal, CA",Associated with Riverside,tmax,ssp245,2061-2080,34.775001525878906
+23,"Thermal, CA",Associated with Riverside,tmax,ssp370,2061-2080,35.375
+23,"Thermal, CA",Associated with Riverside,tmax,ssp585,2061-2080,36.141666412353516
+23,"Thermal, CA",Associated with Riverside,tmax,ssp126,2081-2100,34.44166564941406
+23,"Thermal, CA",Associated with Riverside,tmax,ssp245,2081-2100,35.34166717529297
+23,"Thermal, CA",Associated with Riverside,tmax,ssp370,2081-2100,36.63333511352539
+23,"Thermal, CA",Associated with Riverside,tmax,ssp585,2081-2100,37.75
+23,"Thermal, CA",Associated with Riverside,tmin,ssp126,2021-2040,16.108333587646484
+23,"Thermal, CA",Associated with Riverside,tmin,ssp245,2021-2040,16.049999237060547
+23,"Thermal, CA",Associated with Riverside,tmin,ssp370,2021-2040,16.274999618530273
+23,"Thermal, CA",Associated with Riverside,tmin,ssp585,2021-2040,16.266666412353516
+23,"Thermal, CA",Associated with Riverside,tmin,ssp126,2041-2060,16.825000762939453
+23,"Thermal, CA",Associated with Riverside,tmin,ssp245,2041-2060,17.08333396911621
+23,"Thermal, CA",Associated with Riverside,tmin,ssp370,2041-2060,17.19999885559082
+23,"Thermal, CA",Associated with Riverside,tmin,ssp585,2041-2060,17.424999237060547
+23,"Thermal, CA",Associated with Riverside,tmin,ssp126,2061-2080,16.983333587646484
+23,"Thermal, CA",Associated with Riverside,tmin,ssp245,2061-2080,17.641666412353516
+23,"Thermal, CA",Associated with Riverside,tmin,ssp370,2061-2080,18.358333587646484
+23,"Thermal, CA",Associated with Riverside,tmin,ssp585,2061-2080,19.16666603088379
+23,"Thermal, CA",Associated with Riverside,tmin,ssp126,2081-2100,17.024999618530273
+23,"Thermal, CA",Associated with Riverside,tmin,ssp245,2081-2100,18.049999237060547
+23,"Thermal, CA",Associated with Riverside,tmin,ssp370,2081-2100,19.741666793823242
+23,"Thermal, CA",Associated with Riverside,tmin,ssp585,2081-2100,20.850000381469727
+24,"Irvine, CA",Associated with Riverside,prec,historic,1970-2000,29.33333396911621
+24,"Irvine, CA",Associated with Riverside,tmax,historic,1970-2000,23.8266658782959
+24,"Irvine, CA",Associated with Riverside,tmin,historic,1970-2000,11.381333351135254
+24,"Irvine, CA",Associated with Riverside,prec,ssp126,2021-2040,29.08333396911621
+24,"Irvine, CA",Associated with Riverside,prec,ssp245,2021-2040,28.66666603088379
+24,"Irvine, CA",Associated with Riverside,prec,ssp370,2021-2040,28.75
+24,"Irvine, CA",Associated with Riverside,prec,ssp585,2021-2040,28.75
+24,"Irvine, CA",Associated with Riverside,prec,ssp126,2041-2060,30.16666603088379
+24,"Irvine, CA",Associated with Riverside,prec,ssp245,2041-2060,31.08333396911621
+24,"Irvine, CA",Associated with Riverside,prec,ssp370,2041-2060,28.66666603088379
+24,"Irvine, CA",Associated with Riverside,prec,ssp585,2041-2060,31.25
+24,"Irvine, CA",Associated with Riverside,prec,ssp126,2061-2080,31.41666603088379
+24,"Irvine, CA",Associated with Riverside,prec,ssp245,2061-2080,32.75
+24,"Irvine, CA",Associated with Riverside,prec,ssp370,2061-2080,32.91666793823242
+24,"Irvine, CA",Associated with Riverside,prec,ssp585,2061-2080,32.16666793823242
+24,"Irvine, CA",Associated with Riverside,prec,ssp126,2081-2100,30
+24,"Irvine, CA",Associated with Riverside,prec,ssp245,2081-2100,30.16666603088379
+24,"Irvine, CA",Associated with Riverside,prec,ssp370,2081-2100,31.33333396911621
+24,"Irvine, CA",Associated with Riverside,prec,ssp585,2081-2100,30.08333396911621
+24,"Irvine, CA",Associated with Riverside,tmax,ssp126,2021-2040,25.774999618530273
+24,"Irvine, CA",Associated with Riverside,tmax,ssp245,2021-2040,25.725000381469727
+24,"Irvine, CA",Associated with Riverside,tmax,ssp370,2021-2040,25.850000381469727
+24,"Irvine, CA",Associated with Riverside,tmax,ssp585,2021-2040,25.858333587646484
+24,"Irvine, CA",Associated with Riverside,tmax,ssp126,2041-2060,26.399999618530273
+24,"Irvine, CA",Associated with Riverside,tmax,ssp245,2041-2060,26.524999618530273
+24,"Irvine, CA",Associated with Riverside,tmax,ssp370,2041-2060,26.691667556762695
+24,"Irvine, CA",Associated with Riverside,tmax,ssp585,2041-2060,26.78333282470703
+24,"Irvine, CA",Associated with Riverside,tmax,ssp126,2061-2080,26.524999618530273
+24,"Irvine, CA",Associated with Riverside,tmax,ssp245,2061-2080,26.983333587646484
+24,"Irvine, CA",Associated with Riverside,tmax,ssp370,2061-2080,27.524999618530273
+24,"Irvine, CA",Associated with Riverside,tmax,ssp585,2061-2080,28.29166603088379
+24,"Irvine, CA",Associated with Riverside,tmax,ssp126,2081-2100,26.71666717529297
+24,"Irvine, CA",Associated with Riverside,tmax,ssp245,2081-2100,27.53333282470703
+24,"Irvine, CA",Associated with Riverside,tmax,ssp370,2081-2100,28.774999618530273
+24,"Irvine, CA",Associated with Riverside,tmax,ssp585,2081-2100,29.850000381469727
+24,"Irvine, CA",Associated with Riverside,tmin,ssp126,2021-2040,13.183333396911621
+24,"Irvine, CA",Associated with Riverside,tmin,ssp245,2021-2040,13.091666221618652
+24,"Irvine, CA",Associated with Riverside,tmin,ssp370,2021-2040,13.300000190734863
+24,"Irvine, CA",Associated with Riverside,tmin,ssp585,2021-2040,13.324999809265137
+24,"Irvine, CA",Associated with Riverside,tmin,ssp126,2041-2060,13.908332824707031
+24,"Irvine, CA",Associated with Riverside,tmin,ssp245,2041-2060,14.066666603088379
+24,"Irvine, CA",Associated with Riverside,tmin,ssp370,2041-2060,14.141666412353516
+24,"Irvine, CA",Associated with Riverside,tmin,ssp585,2041-2060,14.416666984558105
+24,"Irvine, CA",Associated with Riverside,tmin,ssp126,2061-2080,14.058333396911621
+24,"Irvine, CA",Associated with Riverside,tmin,ssp245,2061-2080,14.65000057220459
+24,"Irvine, CA",Associated with Riverside,tmin,ssp370,2061-2080,15.274999618530273
+24,"Irvine, CA",Associated with Riverside,tmin,ssp585,2061-2080,16.04166603088379
+24,"Irvine, CA",Associated with Riverside,tmin,ssp126,2081-2100,14.133333206176758
+24,"Irvine, CA",Associated with Riverside,tmin,ssp245,2081-2100,15.066666603088379
+24,"Irvine, CA",Associated with Riverside,tmin,ssp370,2081-2100,16.566667556762695
+24,"Irvine, CA",Associated with Riverside,tmin,ssp585,2081-2100,17.625
