@@ -4,7 +4,7 @@
 # 20220817 
 ###
 
-pacman::p_load("terra", "dplyr", "tidyr", "sf", "readr","tmap", "purrr")
+pacman::p_load("terra", "dplyr", "tidyr", "sf", "readr","tmap", "purrr","tictoc")
 
 list.files(path = "src", full.names = TRUE, recursive = TRUE) %>% map(source)
 
@@ -17,7 +17,10 @@ sp1 <- processNPGS(path = "analysisData/npgsSites/npgsSiteData.csv")%>%
 processHistoric(path = "analysisData/historic", overwrite = TRUE)
 
 # process future data 
-processFuture(path = "analysisData/future/models", overwrite = FALSE)
+tic()
+processFuture(path = "analysisData/future/models", overwrite = TRUE)
+toc()
+
 
 # attach attributes to locations ------------------------------------------------
 d1 <- generateData(path1 =  "analysisData/historic/averaged",

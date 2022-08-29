@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.649">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>gcm_summary</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="summaryDoc_files/libs/clipboard/clipboard.min.js"></script>
+<script src="summaryDoc_files/libs/quarto-html/quarto.js"></script>
+<script src="summaryDoc_files/libs/quarto-html/popper.min.js"></script>
+<script src="summaryDoc_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="summaryDoc_files/libs/quarto-html/anchor.min.js"></script>
+<link href="summaryDoc_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="summaryDoc_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="summaryDoc_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="summaryDoc_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="summaryDoc_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">gcm_summary</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="summary-of-the-global-circulation-model-selection" class="level2">
+<h2 class="anchored" data-anchor-id="summary-of-the-global-circulation-model-selection">Summary of the Global Circulation Model Selection</h2>
+<section id="section" class="level4">
+<h4 class="anchored" data-anchor-id="section">2022-08-25</h4>
+</section>
+</section>
+<section id="goal" class="level2">
+<h2 class="anchored" data-anchor-id="goal">Goal</h2>
+<p>Determine the four most centrally located global circulation model (GCM) across four <a href="https://www.carbonbrief.org/cmip6-the-next-generation-of-climate-models-explained">Shared Socio-economic Pathways</a> (SSPs)(126, 245, 370 and 585) at the 2081-2100 time stamp. The four most common centrally located GCM will be used in as the inputs for the larger project.</p>
+<section id="parameters" class="level3">
+<h3 class="anchored" data-anchor-id="parameters">Parameters</h3>
+<p>Models were evaluated using a local deployment of the GCM compareR shiny application.</p>
+<p>https://github.com/marquetlab/GCM_compareR</p>
+<p>https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13360</p>
+<p><img src="output/summaryImage.png" class="img-fluid"></p>
+<ol type="1">
+<li><p>CMIP version: CMIP6</p></li>
+<li><p>Climate Change Scenario:</p>
+<ol type="1">
+<li><p>year: 2081-2100 - this year was choose as it will represent the largest amount of divergence between the models.</p></li>
+<li><p>Shared Socioeconomic Pathways (SSP): This is a measure of emission intensity, all four options were evaluated.</p></li>
+</ol></li>
+<li><p>General Circulation Models: all available models were considered</p></li>
+<li><p>Type of Comparison</p>
+<ol type="1">
+<li><p>Bio1 - Annual Mean Temperature</p></li>
+<li><p>Bio2 - Annual Precipitation</p></li>
+</ol></li>
+<li><p>Define analysis area</p>
+<ol type="1">
+<li><p>created a generous retangle of CONUS</p></li>
+<li><p>xmin : -125.5812, xmax : -69.46746, ymin : 23.85369, ymax : 47.87214</p></li>
+</ol>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 11 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): GCM
+dbl (4): bio1 (ºC), bio12 (mm), Delta bio1 (ºC), Delta bio12 (mm)
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 10 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): GCM
+dbl (4): bio1 (ºC), bio12 (mm), Delta bio1 (ºC), Delta bio12 (mm)
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 11 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): GCM
+dbl (4): bio1 (ºC), bio12 (mm), Delta bio1 (ºC), Delta bio12 (mm)
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 10 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): GCM
+dbl (4): bio1 (ºC), bio12 (mm), Delta bio1 (ºC), Delta bio12 (mm)
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+</div></li>
+</ol>
+</section>
+</section>
+<section id="ssp1" class="level2">
+<h2 class="anchored" data-anchor-id="ssp1">SSP1</h2>
+<p>The following GCM are present at the SSP1 category.</p>
+<p>MRI.ESM2.0, IPSL.CM6A.LR, GFDL.ESM4, BCC.CSM2.MR, CNRM.ESM2.1, MIROC.ES2L, CanESM5, CNRM.CM6.1, MIROC6</p>
+</section>
+<section id="ssp2" class="level2">
+<h2 class="anchored" data-anchor-id="ssp2">SSP2</h2>
+</section>
+<section id="ssp3" class="level2">
+<h2 class="anchored" data-anchor-id="ssp3">SSP3</h2>
+</section>
+<section id="ssp5" class="level2">
+<h2 class="anchored" data-anchor-id="ssp5">SSP5</h2>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>You can add options to executable code like this</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 4</code></pre>
+</div>
+</div>
+<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

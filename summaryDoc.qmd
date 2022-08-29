@@ -1,0 +1,130 @@
+---
+title: "gcm_summary"
+format: html
+editor: visual
+---
+
+## Summary of the Global Circulation Model Selection
+
+#### 2022-08-25
+
+## Goal
+
+Determine the four most centrally located global circulation model (GCM) across four [Shared Socio-economic Pathways](https://www.carbonbrief.org/cmip6-the-next-generation-of-climate-models-explained) (SSPs)(126, 245, 370 and 585) at the 2081-2100 time stamp. The four most common centrally located GCM will be used in as the inputs for the larger project.
+
+### Parameters
+
+Models were evaluated using a local deployment of the GCM compareR shiny application.
+
+https://github.com/marquetlab/GCM_compareR
+
+https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13360
+
+![](output/summaryImage.png)
+
+1.  CMIP version: CMIP6
+
+2.  Climate Change Scenario:
+
+    1.  year: 2081-2100 - this year was choose as it will represent the largest amount of divergence between the models.
+
+    2.  Shared Socioeconomic Pathways (SSP): This is a measure of emission intensity, all four options were evaluated.
+
+3.  General Circulation Models: all available models were considered
+
+4.  Type of Comparison
+
+    1.  Bio1 - Annual Mean Temperature
+
+    2.  Bio2 - Annual Precipitation
+
+5.  Define analysis area
+
+    1.  created a generous retangle of CONUS
+
+    2.  xmin : -125.5812, xmax : -69.46746, ymin : 23.85369, ymax : 47.87214
+
+    ```{r,echo=FALSE}
+    pacman::p_load("dplyr","tidyr", "readr")
+    source("src/summaryDocFunctions.R")
+
+    # tables 
+    s1 <- read_csv("output/gcmModeling/ssp1/table.csv")%>%
+      filterGMC()%>%
+      rankGMC()
+    s2 <- read_csv("output/gcmModeling/ssp2/table.csv")%>%
+      filterGMC()%>%
+      rankGMC()
+    s3 <- read_csv("output/gcmModeling/ssp3/table.csv")%>%
+      filterGMC()%>%
+      rankGMC()
+    s5 <- read_csv("output/gcmModeling/ssp5/table.csv")%>%
+      filterGMC()%>%
+      rankGMC()
+
+    # determine the number of features 
+    gmcs <- unique(c(s1$GCM, s2$GCM, s3$GCM, s5$GCM))
+    ssps <- c("ssp1", "ssp2", "ssp3","ssp5")
+    ssp2 <- list(s1,s2,s3,s5)
+
+    #summary of gcm 
+    df <- data.frame(matrix(nrow = 8, ncol = 5))
+    names(df) <- c("GCM", "ssp1", "ssp2", "ssp3","ssp5")
+    df$GCM <- sort(gmcs)
+    for(i in seq_along(df$GCM)){
+      model <- df$GCM[i]
+      for(j in seq_along(ssp2)){
+        proj <- ssps[j]
+        dat <- ssp2[[j]]
+        if(model %in% dat$GCM){
+          dat2 <- dat[dat$GCM == model,]
+          df[i,j+1] <- dat2$difference
+        }
+      }
+    }
+    df <- df %>%
+      dplyr::rowwise()%>%
+      dplyr::mutate(average = mean(c(ssp1,ssp2,ssp3,ssp5), na.rm=TRUE))%>%
+      dplyr::arrange(average)
+    # so the top five feature here are all present on world clim 
+
+    # images 
+    p1 <-"output/gcmModeling/ssp1/figure.png"
+    p2 <- "output/gcmModeling/ssp2/figure.png"
+    p3 <- "output/gcmModeling/ssp3/figure.png"
+    p5 <- "output/gcmModeling/ssp5/figure.png"
+
+    ```
+
+## Difference method
+
+To generate a single measure for evaluation the following equation was used.
+
+## $$Value = abs(mean temperature)-temperature) + abs(mean precipitation - precipitation)$$
+
+Temperature and precipitation are weighted evenly
+
+## D
+
+## SSP1
+
+The following GCM are present at the SSP1 category.
+
+`r unique(s1$GCM)`
+
+## SSP2
+
+## SSP3
+
+## SSP5
+
+## Summary
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
