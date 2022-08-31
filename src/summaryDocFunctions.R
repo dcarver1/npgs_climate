@@ -22,10 +22,11 @@ filterGMC <- function(data){
 rankGMC <- function(data){
   mt <- mean(data$temp)
   mp <- mean(data$prec)
+  
   df <- data %>%
     rowwise()%>%
     dplyr::mutate(tempDiff = abs(temp-mt),
-                  precDiff = abs(prec-mp))  %>%
+                  precDiff = abs(prec-mp))%>%
     ungroup()%>%
     dplyr::mutate(tempNorm = range01(tempDiff),
                   precNorm = range01(precDiff)) %>%

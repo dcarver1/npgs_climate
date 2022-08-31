@@ -2,11 +2,14 @@
 title: "gcm_summary"
 format: html
 editor: visual
+execute:
+  echo: false
+  warning: false
 ---
 
 ## Summary of the Global Circulation Model Selection
 
-#### 2022-08-25
+#### `r Sys.Date()`
 
 ## Goal
 
@@ -44,8 +47,8 @@ https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13360
 
     2.  xmin : -125.5812, xmax : -69.46746, ymin : 23.85369, ymax : 47.87214
 
-    ```{r,echo=FALSE}
-    pacman::p_load("dplyr","tidyr", "readr")
+```{r}
+    pacman::p_load("dplyr","tidyr", "readr","DT","plotly")
     source("src/summaryDocFunctions.R")
 
     # tables 
@@ -86,45 +89,134 @@ https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13360
       dplyr::rowwise()%>%
       dplyr::mutate(average = mean(c(ssp1,ssp2,ssp3,ssp5), na.rm=TRUE))%>%
       dplyr::arrange(average)
-    # so the top five feature here are all present on world clim 
+    
+t <- list(
+  family = "sans serif",
+  size = 14,
+  color = toRGB("grey50"))    
 
-    # images 
-    p1 <-"output/gcmModeling/ssp1/figure.png"
-    p2 <- "output/gcmModeling/ssp2/figure.png"
-    p3 <- "output/gcmModeling/ssp3/figure.png"
-    p5 <- "output/gcmModeling/ssp5/figure.png"
-
-    ```
+```
 
 ## Difference method
 
-To generate a single measure for evaluation the following equation was used.
+The following steps were used to generate a single measure for evaluation.
 
-## $$Value = abs(mean temperature)-temperature) + abs(mean precipitation - precipitation)$$
+1.  Difference from mean.
 
-Temperature and precipitation are weighted evenly
+-   absolute value of x - Mean of range of values
+-   applied to temperate and precipitation
 
-## D
+2.  Normal the difference from mean
+
+-   Value = {(x-min(x))/(max(x)-min(x))} ; where x is a vector of all temperature or precipitation values
+
+3.  Combine the noralized values
+
+-   value = normalize temperature + normalized precipitation
+
+The result is a single value that weight temperature and precipitation evenly.
+
+## Summary
+
+By combining the individual evaluations at each Shared Socioeconomic Pathway we are able to evaluate which GCMs are nearest to the average across all ssp pathways.
+
+```{r}
+datatable(df)
+```
+
+The top for models
+
+**CNRM.ESM2.1** **MIROC6** **MIROC.ES2L** **CNRM.CM6.1**
+
+Are the current suggestion for use as the ensemble dataset for creating a generalized prediction of the future maximim temperature, minimum temperature, and precipitation at varies NPGS sites.
+
+# Individual Shared Socioeconomic Pathways
 
 ## SSP1
 
 The following GCM are present at the SSP1 category.
 
-`r unique(s1$GCM)`
+```{r}
+datatable(s1)
+```
+
+This is a plot of the normalized difference from the mean for all GCMs. Ensemble represents the mean of all temperature and precipitation values.
+
+```{r}
+s1<-s1 %>%
+  add_row(GCM = "ensemble",
+          temp = mean(s1$temp,na.rm = TRUE),
+          prec =  mean(s1$prec,na.rm = TRUE),
+          difference = NA)
+
+plot_ly(data = s1, x = ~temp, y = ~prec,  color = ~GCM ,  colors = "Set1", text = ~GCM)%>% 
+  add_markers()%>%
+  add_text(textfont = t, textposition = "top right", showlegend = F)
+
+```
 
 ## SSP2
 
+The following GCM are present at the SSP1 category.
+
+```{r}
+datatable(s2)
+```
+
+This is a plot of the normalized difference from the mean for all GCMs. Ensemble represents the mean of all temperature and precipitation values.
+
+```{r}
+s2<-s2 %>%
+  add_row(GCM = "ensemble",
+          temp = mean(s2$temp,na.rm = TRUE),
+          prec =  mean(s2$prec,na.rm = TRUE),
+          difference = NA)
+
+plot_ly(data = s2, x = ~temp, y = ~prec,  color = ~GCM ,  colors = "Set1", text = ~GCM)%>% 
+  add_markers()%>%
+  add_text(textfont = t, textposition = "top right", showlegend = F)
+```
+
 ## SSP3
+
+The following GCM are present at the SSP1 category.
+
+```{r}
+datatable(s3)
+```
+
+This is a plot of the normalized difference from the mean for all GCMs. Ensemble represents the mean of all temperature and precipitation values.
+
+```{r}
+s3<-s3 %>%
+  add_row(GCM = "ensemble",
+          temp = mean(s3$temp,na.rm = TRUE),
+          prec =  mean(s3$prec,na.rm = TRUE),
+          difference = NA)
+
+plot_ly(data = s3, x = ~temp, y = ~prec,  color = ~GCM ,  colors = "Set1", text = ~GCM)%>% 
+  add_markers()%>%
+  add_text(textfont = t, textposition = "top right", showlegend = F)
+```
 
 ## SSP5
 
-## Summary
-
-You can add options to executable code like this
+The following GCM are present at the SSP1 category.
 
 ```{r}
-#| echo: false
-2 * 2
+datatable(s5)
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+This is a plot of the normalized difference from the mean for all GCMs. Ensemble represents the mean of all temperature and precipitation values.
+
+```{r}
+s5<-s5 %>%
+  add_row(GCM = "ensemble",
+          temp = mean(s5$temp,na.rm = TRUE),
+          prec =  mean(s5$prec,na.rm = TRUE),
+          difference = NA)
+
+plot_ly(data = s5, x = ~temp, y = ~prec,  color = ~GCM ,  colors = "Set1", text = ~GCM)%>% 
+  add_markers()%>%
+  add_text(textfont = t, textposition = "top right", showlegend = F)
+```
