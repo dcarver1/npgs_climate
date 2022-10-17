@@ -1,32 +1,32 @@
-﻿NPGS site,Address,Type of site,Latitude,Longitude,Include in Crop Science Report (TRUE/FALSE),Verified Location (add name) ,,,,,,,,,,,,,,,,,,,
+NPGS site,Address,Type of site,Latitude,Longitude,Include in Crop Science Report (TRUE/FALSE),Verified Location (add name) 
 "Corvallis, Oregon","National Clonal Germplasm Repository 
 33447 Peoria Road 
-Corvallis, Oregon 97333-2521",National Clonal Germplasm Repository,44.550974,-123.219172,TRUE,Lauri Reinhold,,,,,,,,,,,,,,,,,,,
+Corvallis, Oregon 97333-2521",National Clonal Germplasm Repository,44.550974,-123.219172,TRUE,Lauri Reinhold
 "Pullman, Washington","Washington State University Regional Plant Introduction Station 
 59 Johnson Hall, P.O. Box 646402 
-Pullman, Washington 99164-6402 ","Plant Introduction Station, Genetic stock collection",46.731993,-117.157933,TRUE,Marilyn Warburton,,,,,,,,,,,,,,,,,,,
+Pullman, Washington 99164-6402 ","Plant Introduction Station, Genetic stock collection",46.731993,-117.157933,TRUE,Marilyn Warburton
 "Aberdeen, Idaho","National Small Grains Collection 
 1691 S. 2700 W. 
-Aberdeen, Idaho 83210 ","Crop collection, Genetic stock collection (2)",42.956831,-112.828712,TRUE,Harold Bockelman,,,,,,,,,,,,,,,,,,,
+Aberdeen, Idaho 83210 ","Crop collection, Genetic stock collection (2)",42.956831,-112.828712,TRUE,Harold Bockelman
 "Davis, California","National Germplasm Repository 
 University of California 
 Straloch Road 
-Davis, California 95616","National Clonal Germplasm Repository, Genetic stock collection",38.535252,-121.792212,TRUE,,,,,,,,,,,,,,,,,,,,
+Davis, California 95616","National Clonal Germplasm Repository, Genetic stock collection",38.535252,-121.792212,TRUE,
 "Parlier, California","National Arid Land Plant Genetic Resource Unit 
 Resources Unit 
 9611 S. Riverbend 
-Parlier, California 93648",Specialized  (warm-season arid environment),36.595618,-119.511517,TRUE,Claire Heinitz,,,,,,,,,,,,,,,,,,,
+Parlier, California 93648",Specialized  (warm-season arid environment),36.595618,-119.511517,TRUE,Claire Heinitz
 "Riverside, California","USDA-ARS-National Clonal Germplasm Repository Citrus Dates 
 1060 Martin Luther King Blvd 
-Riverside, California 92507-5437",National Clonal Germplasm Repository,33.968187,-117.335831,TRUE,Robert Krueger,,,,,,,,,,,,,,,,,,,
+Riverside, California 92507-5437",National Clonal Germplasm Repository,33.968187,-117.335831,TRUE,Robert Krueger
 "Hilo, Hawaii","USDA, ARS, PBARC, TPGRDR 
 928 Stainback Highway (Physical) 
 64 Nowelo Street (Mail) 
-Hilo, Hawaii 96720",National Clonal Germplasm Repository,19.632848,-155.088632,TRUE,,,,,,,,,,,,,,,,,,,,
-"Ft Collins, Colorado","USDA, ARS, NCGRP 
+Hilo, Hawaii 96720",National Clonal Germplasm Repository,19.632848,-155.088632,TRUE,
+"Fort Collins, Colorado","USDA, ARS, NCGRP 
 National Center for Genetic Resources Preservation 
 1111 South Mason Street 
-Fort Collins, Colorado 80521-4500",National Laboratory for Genetic Resource Preservation,40.572927,-105.079192,TRUE,,,,,,,,,,,,,,,,,,,,
+Fort Collins, Colorado 80521-4500",National Laboratory for Genetic Resource Preservation,40.572927,-105.079192,TRUE,
 "College Station, Texas","USDA, ARS 
 National Germplasm Repository 
 Pecan Research 
@@ -36,12 +36,12 @@ Somerville, Texas 77879
 USDA, ARS 
 Crop Germplasm Research 
 2765 F&B Road 
-College Station, Texas 77845","National Clonal Germplasm Repository, Crop collection",30.458733,-96.372554,TRUE,,,,,,,,,,,,,,,,,,,,
+College Station, Texas 77845","National Clonal Germplasm Repository, Crop collection",30.458733,-96.372554,TRUE,
 "Ames, Iowa","USDA, ARS 
 Iowa State University 
 Regional Plant Introduction Station 
 G212 Agronomy Hall 
-Ames, Iowa 50011-1170",Plant Introduction Station,42.028261,-93.64239,TRUE,,,,,,,,,,,,,,,,,,,,
+Ames, Iowa 50011-1170",Plant Introduction Station,42.028261,-93.64239,TRUE,
 "Urbana, Illinois","USDA, ARS 
 Soybean Germplasm Collection 
 Rm 180 NSRC 
@@ -50,65 +50,65 @@ Urbana, Illinois 61801                 and
 Maize Genetics Cooperation - Stock Center (GSZE) 
 University of Illinois, Department of Agronomy 
 S-123 Turner Hall, 1102 S. Goodwin Avenue 
-Urbana, Illinois 61801-4798","Crop collection, Genetic stock collection",40.100985,-88.222566,TRUE,,,,,,,,,,,,,,,,,,,,
+Urbana, Illinois 61801-4798","Crop collection, Genetic stock collection",40.100985,-88.222566,TRUE,
 "Stuttgart, Arkansas","Dale Bumpers National Rice Research Center 
 2890 Hwy 130 East 
-Stuttgart, Arkansas 72160",Genetic stock collection,34.47557,-91.418658,TRUE,,,,,,,,,,,,,,,,,,,,
-Columbus,"The Ohio State University, OPGC 
+Stuttgart, Arkansas 72160",Genetic stock collection,34.47557,-91.418658,TRUE,
+"Columbus, Ohio","The Ohio State University, OPGC 
 Ornamental Plant Germplasm Center 
 670 Vernon Tharp Street 
-Columbus, Ohio 43210-1086",Crop collection,40.001748,-83.028805,TRUE,,,,,,,,,,,,,,,,,,,,
-Sturgeon Bay,"USDA, ARS 
+Columbus, Ohio 43210-1086",Crop collection,40.001748,-83.028805,TRUE,
+"Sturgeon Bay, Wisconsin","USDA, ARS 
 Potato Introduction Project 
 4312 Hwy 42 
-Sturgeon Bay, Wisconsin 54235",Crop collection,44.879609,-87.336222,TRUE,,,,,,,,,,,,,,,,,,,,
-Griffin,"USDA, ARS 
+Sturgeon Bay, Wisconsin 54235",Crop collection,44.879609,-87.336222,TRUE,
+"Griffin, Georgia","USDA, ARS 
 Plant Genetic Resources Conservation Unit 
 1109 Experiment Street 
-Griffin, Georgia 30223-1797",Plant Introduction Station,33.262634,-84.286044,TRUE,Melanie Harrison,,,,,,,,,,,,,,,,,,,
+Griffin, Georgia 30223-1797",Plant Introduction Station,33.262634,-84.286044,TRUE,Melanie Harrison
 ,"21 DUNBAR ROAD
-Byron, GA 31008",Southeastern Fruit and Tree Nut Research Station,32.65697,-83.715979,,Melanie Harrison,,,,,,,,,,,,,,,,,,,
-,"Westbrook Research Farm, Ellis Rd., Griffin, GA 30223",UGA Research Farm,33.266959,-84.307017,,Melanie Harrison,,,,,,,,,,,,,,,,,,,
-,St. Croix,Germplasm Research and Introduction Unit,17.74042,-64.83395,,,,,,,,,,,,,,,,,,,,,
-,"1091 E. Curry Road, Pearce, AZ  85625",Private sector Collaborator,31.95639,-109.83865,FALSE,Jarret,,,,,,,,,,,,,,,,,,,
-,"5820 Research Way, Immokalee, FL 34132",Private sector Collaborator,31.95639,-109.83865,FALSE,Jarret,,,,,,,,,,,,,,,,,,,
-Geneva, ,"Plant Introduction Station, National Clonal Germplasm Repository",42.877041,-77.007158,TRUE,Zachary Stansell,,,,,,,,,,,,,,,,,,,
-Beltsville,"10300 Baltimore Ave. 
+Byron, GA 31008",Southeastern Fruit and Tree Nut Research Station,32.65697,-83.715979,,Melanie Harrison
+,"Westbrook Research Farm, Ellis Rd., Griffin, GA 30223",UGA Research Farm,33.266959,-84.307017,,Melanie Harrison
+,St. Croix,Germplasm Research and Introduction Unit,17.74042,-64.83395,,
+,"1091 E. Curry Road, Pearce, AZ  85625",Private sector Collaborator,31.95639,-109.83865,FALSE,Jarret
+,"5820 Research Way, Immokalee, FL 34132",Private sector Collaborator,31.95639,-109.83865,FALSE,Jarret
+"Geneva, New York", ,"Plant Introduction Station, National Clonal Germplasm Repository",42.877041,-77.007158,TRUE,Zachary Stansell
+"Beltsville, Maryland ","10300 Baltimore Ave. 
 BLDG. 003, RM. 102, BARC-WEST 
-Beltsville, Maryland 20705-2350",National Germplasm Resources Laboratory,39.026267,-76.923467,TRUE,,,,,,,,,,,,,,,,,,,,
+Beltsville, Maryland 20705-2350",National Germplasm Resources Laboratory,39.026267,-76.923467,TRUE,
 "Washington, D.C.","U. S. National Arboretum 
-Woody Landscape Plant Germplasm Repository",National Clonal Germplasm Repository,38.912069,-76.965795,TRUE,Todd Rounsaville,,,,,,,,,,,,,,,,,,,
-Miami,"USDA-ARS, SHRS, 
+Woody Landscape Plant Germplasm Repository",National Clonal Germplasm Repository,38.912069,-76.965795,TRUE,Todd Rounsaville
+"Miami, Florida","USDA-ARS, SHRS, 
 13601 Old Cutler Road 
-Miami, Florida 33158 ",National Clonal Germplasm Repository,"25°38'37.31""N","80°17'30.21""W",FALSE,Ricardo Goenaga,,,,,,,,,,,,,,,,,,,
-Mayaguez,"USDA, ARS Tropical Agriculture Research Station 
-2200 P. A. Campos Ave. Ste. 201 Mayaguez, Puerto Rico",National Clonal Germplasm Repository," 18°12'29.03""N"," 67° 8'18.65""W",FALSE,Ricardo Goenaga,,,,,,,,,,,,,,,,,,,
+Miami, Florida 33158 ",National Clonal Germplasm Repository,25.643535,-80.291714,TRUE,Ricardo Goenaga
+"Mayaguez, Puerto Rico","USDA, ARS Tropical Agriculture Research Station 
+2200 P. A. Campos Ave. Ste. 201 Mayaguez, Puerto Rico",National Clonal Germplasm Repository,18.2081,-67.138297,TRUE,Ricardo Goenaga
 Desert Legume Program,"2120 E. Allen Rd. 
-Tucson, Arizona 85719 ",Affiliated non-ARS collection,32.275866,-110.939947,FALSE,,,,,,,,,,,,,,,,,,,,
+Tucson, Arizona 85719 ",Affiliated non-ARS collection,32.275866,-110.939947,FALSE,
 Forest Service National Seed Lab,"5675 Riggins Mill Road 
-Dry Branch, Georgia 31020",Affiliated non-ARS collection,32.806707,-83.538549,FALSE,,,,,,,,,,,,,,,,,,,,
+Dry Branch, Georgia 31020",Affiliated non-ARS collection,32.806707,-83.538549,FALSE,
 US Nicotiana Germplasm Collection,"North Carolina State University 
 Department of Crop Science 
 Box 7620 
 4309 Williams Hall 
-Raleigh, North Carolina 27695",Affiliated non-ARS collection,35.786813,-78.671659,FALSE,,,,,,,,,,,,,,,,,,,,
-"Central Ferry, WA","639 Hastings Hill Rd. Pomeroy, WA 99347",Associated with Pullman,46.6714829,-117.7533722,TRUE,Brian Irish,,,,,,,,,,,,,,,,,,,
-"Prosser, WA","24106 N. Bunn Rd. Prosser, WA  99350",Associated with Pullman,46.25264208,-119.7378447,TRUE,Brian Irish,,,,,,,,,,,,,,,,,,,
-"Isabela, Puerto Rico","USDA-ARS Carr. #2 Km. 115 H. 4, Isabela, PR 00662",Associated with Mayaguez,18.469639,-67.056483,TRUE,Ricardo Goenaga,,,,,,,,,,,,,,,,,,,
-"St Croix, Virgin Islands","USDA-ARS-GIRU East Airport Rd., Upper Bethlehem, St. Croix, Virgin Islands, 00850",Associated with Mayaguez,17.719144,-64.792647,TRUE,Ricardo Goenaga,,,,,,,,,,,,,,,,,,,
-"Thermal, CA","UC Coachella Valley Agricultural Research Station
+Raleigh, North Carolina 27695",Affiliated non-ARS collection,35.786813,-78.671659,FALSE,
+"Central Ferry, Washington","639 Hastings Hill Rd. Pomeroy, WA 99347",Associated with Pullman,46.6714829,-117.7533722,TRUE,Brian Irish
+"Prosser, Washington","24106 N. Bunn Rd. Prosser, WA  99350",Associated with Pullman,46.25264208,-119.7378447,TRUE,Brian Irish
+"Isabela, Puerto Rico","USDA-ARS Carr. #2 Km. 115 H. 4, Isabela, PR 00662",Associated with Mayaguez,18.469639,-67.056483,TRUE,Ricardo Goenaga
+"St Croix, Virgin Islands","USDA-ARS-GIRU East Airport Rd., Upper Bethlehem, St. Croix, Virgin Islands, 00850",Associated with Mayaguez,17.719144,-64.792647,TRUE,Ricardo Goenaga
+"Thermal, California","UC Coachella Valley Agricultural Research Station
 72155 72nd Ave
-Themal, CA 92274",Associated with Riverside,33.52446928,-116.1497251,TRUE,Robert Krueger,,,,,,,,,,,,,,,,,,,
-"Irvine, CA","UC South Coast Research & Extension Center
+Themal, CA 92274",Associated with Riverside,33.52446928,-116.1497251,TRUE,Robert Krueger
+"Irvine, California","UC South Coast Research & Extension Center
 7601 Irvine Blvd
-Irvine, CA 92618",Associated with Riverside,33.68853758,-117.7224132,TRUE,Robert Krueger,,,,,,,,,,,,,,,,,,,
-"Brownwood, TX","USDA ARS NCGR Carya; 701 Woodson Rd, Brownwood, TX 76801",Associated with College Station,31.726055,-98.973296,,,,,,,,,,,,,,,,,,,,,
-"Wolfskill Orchards, Winters, CA",,Associated with Davis,,,,,,,,,,,,,,,,,,,,,,,
-"College Park, MD","BARC 'South Farm', Cherry Hill Road, College Park, MD",Associated with USNA,39.019376,-76.938867,,Todd Rounsaville,,,,,,,,,,,,,,,,,,,
+Irvine, CA 92618",Associated with Riverside,33.68853758,-117.7224132,TRUE,Robert Krueger
+"Brownwood, TX","USDA ARS NCGR Carya; 701 Woodson Rd, Brownwood, TX 76801",Associated with College Station,31.726055,-98.973296,,
+"Wolfskill Orchards, Winters, CA",,Associated with Davis,,,,
+"College Park, MD","BARC 'South Farm', Cherry Hill Road, College Park, MD",Associated with USNA,39.019376,-76.938867,,Todd Rounsaville
 "Las Cruces, NM","Department of Plant and Environmental Sciences, Box 30003 MSC 3Q
-New Mexico State University, Las Cruces, NM 88003-8003","Associated with USDA-PGRU, short-day onion regeneration",32.278475,-106.7487266,,Zachary Stansell,,,,,,,,,,,,,,,,,,,
-"Hazel Green, AL","WINFRED THOMAS AGRICULTURAL RESEARCH STATION at Alabama A&M, 372 Walker Lane, Hazel Green, AL 35752","Associated with USDA-PGRU, hemp regeneration",34.7817,-86.56365,,Zachary Stansell,,,,,,,,,,,,,,,,,,,
-"Stoneville, MS","USDA Agricultural Research Service 141 Experiment Station Road Stoneville, MS 38776","Associated with Soybean Collection, late maturity regenerations",33.425041,-90.910871,,Adam Mahan,,,,,,,,,,,,,,,,,,,
-"Upala, Costa Rica","Costa Rica Seeds Winter Production Services P.O. Box 19-5700 Canas, Guanacastre, Costa Rica","Associated with Soybean Collection, tropical regenerations",10.88521,-85.03396,,Adam Mahan,,,,,,,,,,,,,,,,,,,
-"Salinas, CA","USDA ARS, 1636 E Alisal St, Salinas, CA 93905",Associated with Ames since they regenerate spinach in positive pressure GH chambers,36.671775,-121.610605,,David Brenner,,,,,,,,,,,,,,,,,,,
-"Liberia, Costa Rica","9 km North of McDonalds on Pan American Hwy, Liberia Guanacaste, Costa Rica 5001","Associated with USDA-CGRU Cotton Collection, tropical regenerations","10°41'18.99""N","89° 29'42.01""W",,,,,,,,,,,,,,,,,,,,,
+New Mexico State University, Las Cruces, NM 88003-8003","Associated with USDA-PGRU, short-day onion regeneration",32.278475,-106.7487266,,Zachary Stansell
+"Hazel Green, AL","WINFRED THOMAS AGRICULTURAL RESEARCH STATION at Alabama A&M, 372 Walker Lane, Hazel Green, AL 35752","Associated with USDA-PGRU, hemp regeneration",34.7817,-86.56365,,Zachary Stansell
+"Stoneville, MS","USDA Agricultural Research Service 141 Experiment Station Road Stoneville, MS 38776","Associated with Soybean Collection, late maturity regenerations",33.425041,-90.910871,,Adam Mahan
+"Upala, Costa Rica","Costa Rica Seeds Winter Production Services P.O. Box 19-5700 Canas, Guanacastre, Costa Rica","Associated with Soybean Collection, tropical regenerations",10.88521,-85.03396,,Adam Mahan
+"Salinas, CA","USDA ARS, 1636 E Alisal St, Salinas, CA 93905",Associated with Ames since they regenerate spinach in positive pressure GH chambers,36.671775,-121.610605,,David Brenner
+"Liberia, Costa Rica","9 km North of McDonalds on Pan American Hwy, Liberia Guanacaste, Costa Rica 5001","Associated with USDA-CGRU Cotton Collection, tropical regenerations","10°41'18.99""N","89° 29'42.01""W",,

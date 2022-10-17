@@ -1,127 +1,115 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
 library(shiny)
 library(dplyr)
 library(readr)
 library(plotly)
 library(DT)
-sites <- read_csv("npgsSiteData.csv")%>%
-  dplyr::select("NPGS site","Address","Type of site","Latitude","Longitude","Include in Crop Science Report (TRUE/FALSE)")%>%
-  dplyr::filter(`Include in Crop Science Report (TRUE/FALSE)` == TRUE)%>%
-  dplyr::mutate(ID = seq(1,24,1))
-df <- read_csv("tidyClimateValues.csv") %>%
-  dplyr::left_join(sites, by = "ID" )%>%
-  dplyr::select(
-    "ID",
-    "NPGS_Site" = "NPGS site",
-    "Site_Category" = "Type of site",
-    "variable",
-    "emission",
-    "year",
-    "value" 
-  )%>%
-  dplyr::mutate(aveYear = case_when(
-    year == "2021-2040" ~ 2030,
-    year == "2041-2060" ~ 2050,
-    year == "2061-2080" ~ 2070,
-    year == "2081-2100" ~ 2090,
-    TRUE ~ 2000
-  )) %>%
-  dplyr::mutate(emission = case_when(
-    emission == "1970" ~ "Historic",
-    TRUE ~ emission
-  ))
+library(bslib)
+library(sf)
+library(leaflet)
+lapply(X = list.files(path = "functions", full.names = TRUE, recursive = TRUE),
+       source)# site locations 
 
-d2 <- df%>% filter(ID == 1) %>% filter(variable == "tmax")
-plotChart_prec <- function(data){
-  p1 <- plot_ly(data = data,  x = ~aveYear, y = ~value, type = 'scatter', mode = 'lines+markers', split = ~emission)%>%
-    layout(legend=list(title=list(text='Emission Scenerio')),
-           xaxis = list(title = 'Year'),
-           yaxis = list(title = 'Mean Monthly Precipitation(mm)'))
-  return(p1)
-}
-plotChart_tmax <-function(data){
-  p1 <- plot_ly(data = data,  x = ~aveYear, y = ~value, type = 'scatter', mode = 'lines+markers', split = ~emission)%>%
-    layout(legend=list(title=list(text='Emission Scenerio')),
-           xaxis = list(title = 'Year'),
-           yaxis = list(title = 'Mean Monthly Maximum Temperature (c)'),
-           plot_bgcolor='#e5ecf6')
-  return(p1)
-}
-plotChart_tmin <-function(data){
-  p1 <- plot_ly(data = data,  x = ~aveYear, y = ~value, type = 'scatter', mode = 'lines+markers', split = ~emission)%>%
-    layout(legend=list(title=list(text='Emission Scenerio')),
-           xaxis = list(title = 'Year'),
-           yaxis = list(title = 'Mean Monthly Minimum Temperature (c)'))
-  return(p1)
-}
+### Temp; testing local at to front of file paths 
+### npgsClimate/
 
-
+# Process input datasets --------------------------------------------------
+allSites <- generateSites()
+df <- processData(allSites)
+sites <- sort(unique(allSites$`NPGS site`))
 
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(
-
-    # Application title
-    titlePanel("Visualization of Future Climate Data"),
-
+#fluidPage
+ui <- navbarPage(
+    theme = bs_theme(version = 5, bootswatch = "litera"),
+    # Application title -------------------------------------------------------
+    "Visualization of Future Climate Data",
+    # Charts ------------------------------------------------------------------
     # Sidebar with a slider input for number of bins 
-    sidebarLayout(
-        sidebarPanel(
-          h4("Select you location of interest from the drop down."),
-          selectInput("variable", "Location:",
-                      # list of npgs sites 
-                      c("Corvallis, Oregon","Pullman, Washington","Aberdeen, Idaho","Davis, California",       
-                         "Parlier, California","Riverside, California","Hilo, Hawaii","Ft Collins, Colorado",    
-                         "College Station, Texas","Ames, Iowa","Urbana, Illinois","Stuttgart, Arkansas",     
-                         "Columbus","Sturgeon Bay","Griffin","Geneva",
-                         "Beltsville","Washington, D.C.","Central Ferry, WA","Prosser, WA",             
-                         "Isabela, Puerto Rico","St Croix, Virgin Islands","Thermal, CA","Irvine, CA")
-        ),
-        h4("Select boxes to toggle features on the plots."),
-        checkboxInput("ssp126", label = "Sustainability(ssp126)", value = TRUE),
-        checkboxInput("ssp245", label = "Middle of the road(ssp245)", value = TRUE),
-        checkboxInput("ssp370", label = "Inequality(ssp370)", value = TRUE),
-        checkboxInput("ssp585", label = "Fossil-Fueled Development(ssp585)", value = TRUE),
-        "Read about Share Socialeconomic Pathways ", 
-        tags$a(href = "https://en.wikipedia.org/wiki/Shared_Socioeconomic_Pathways",
-               "here.", target = "_blank")
+    tabPanel(title = "Data Visualization", 
+             sidebarLayout(
+               sidebarPanel(
+                 ### this keeps the side bar panel in place but only works on large screens 
+                 # style = "position: fixed; overflow: visible;",
+                 h4("Select you location of interest from the drop down."),
+                 selectInput("variable", "Location:", sites ),
+                 h4("Select boxes to toggle features on the plots."),
+                 ### the plots require a historical reference data so I'm excluding the option to re
+                 ### historical reference for the time being. 
+                 # checkboxInput("historic", label = "1970-2000 measured average", value = TRUE),
+                 checkboxInput("ssp126", label = "Sustainability(ssp126)", value = TRUE),
+                 checkboxInput("ssp245", label = "Middle of the road(ssp245)", value = TRUE),
+                 checkboxInput("ssp370", label = "Inequality(ssp370)", value = TRUE),
+                 checkboxInput("ssp585", label = "Fossil-Fueled Development(ssp585)", value = TRUE),
+                 "Read about Share Socialeconomic Pathways ", 
+                 tags$a(href = "https://en.wikipedia.org/wiki/Shared_Socioeconomic_Pathways",
+                        "here.", target = "_blank"),
+                 br(),
+                 "Read more about the bioclimatic indicators ", 
+                 tags$a(href = "https://www.worldclim.org/data/bioclim.html",
+                        "here.", target = "_blank"),
+                 
+               ),
+               
+               # Show a plot of the generated distribution
+               mainPanel(
+                 tabsetPanel(
+                   tabPanel(title = "Temperature",
+                            
+                            h3("BIO5 = Max Temperature of Warmest Month"),
+                            "Mean maximum temperature of the warmest month of the year (c)",
+                            plotlyOutput("bio5"),
+                            
+                            h3("BIO10 = Mean Temperature of Warmest Quarter"),
+                            "Mean of the three months that make up the warmest quarter of the year (c)",
+                            plotlyOutput("bio10"),
+                            h3("BIO11 = Mean Temperature of Coldest Quarter"),
+                            "Mean of the three months that make up the coldest quarter of the year  (c)",
+                            plotlyOutput("bio11"),
+                   ),
+                   tabPanel(title = "Precipitation",
+                            h3("BIO18 = Precipitation of Warmest Quarter (mm)"),
+                            "Total precipitation of the warmest quarter of the year ",
+                            plotlyOutput("bio18"),
+                            # 
+                            h3("BIO19 = Precipitation of Coldest Quarter (mm)"),
+                            "Precipitation of the coldest quarter of the year ",
+                            plotlyOutput("bio19"),
+                   )
+                 ),
+     
+ 
+                 h3("tabular data for site"),
+                 "This table contains all the date associated with the individual site. It can be sorted. ",
+                 br(),
+                 downloadButton(outputId = "downloadData",
+                                label = "Download data for this location"),
+                 br(),
+                 br(),
+                 DT::dataTableOutput("tableAll")),
+             ),
+            
+    ),
 
-      ),
+# Location Map ------------------------------------------------------------
+  tabPanel(title = "NPGS Site Location Map",
+           mapUI("map")
+  ),
+    
+# bioclimatic variables ---------------------------------------------------
+    tabPanel(title = "Bioclimatic Indicators",
+             bioText("bio")
+             ),
 
-        # Show a plot of the generated distribution
-        mainPanel(
-          h2("Considerations"),
-          "All data presented below is a mean of all 12 months of the year. This tends to generalize trends in the precipitation data due to the seasonality of precipitation. Temperature data includes months that are not relevant to perennial crops.",
-          "We can filter what months are used in these evaluations.",
-          br(),
-          "This website contains a series of visualization that allows you to evaluate current weather patterns. It can be a helpful reference in understanding the seasonality of temperature and precipitation at a given location.",
-          tags$a(href = "https://weatherspark.com/y/400/Average-Weather-in-Corvallis-Oregon-United-States-Year-Round",
-                 "weatherspark", target = "_blank"),
-          br(),
-          "All data are projections. There is, in general more confidence around modeled future temperature than precipitation values due to the numerous additional elements affecting precipitation potential.",
-          br(),
-          "The ",tags$em("Historic"), " observation on the chart is a measure of the observer temperature and precipitation measures during the 1970-2000 time period.",
-          h3("Precipitation"),
-          "Mean of all 12 monthly total precipitation (mm)",
-          plotlyOutput("prec"),
-          h3("Maximum Temperature"),
-          "Mean of all 12 monthly average maximum temperature (°C)",
-          plotlyOutput("tmax"),
-          h3("Minimum Temperature"),
-          "Mean of all 12 monthly average minimum temperature values",
-          plotlyOutput("tmin"),
-          h3("tabular data for site"),
-          "This table contains all the date associated with the individual site. It can be sorted. ",
-          DT::dataTableOutput("tableAll")),        
-    )
+# Climate Model Selection -------------------------------------------------
+    tabPanel(title = "Climate Model Selection",
+             h2("Climate models"),
+             climText("clim")
+             ),
+# about -------------------------------------------------------------------
+    tabPanel(title = "About",
+             aboutText("about")
+    ),
 )
 
 # Define server logic required to draw a histogram
@@ -134,22 +122,25 @@ server <- function(input, output) {
     })
     
     output$tableAll <- renderDataTable({
-      DT::datatable(df2())
+      DT::datatable(df2() %>% select(-color))
     }) 
-    
+    # filter based on selection options  
     df2a <- reactive({
-      vals <- c("Historic")
-      if(input$ssp126 == TRUE){
-        vals <- c(vals, "ssp126")
+      vals <- c("Historic", "ssp126","ssp245","ssp370","ssp585")
+      # if(input$historic == FALSE){
+      #   vals <- vals[vals != "Historic"]
+      # }
+      if(input$ssp126 == FALSE){
+        vals <- vals[vals != "ssp126"]
       }
-      if(input$ssp245 == TRUE){
-        vals <- c(vals, "ssp245")
+      if(input$ssp245 == FALSE){
+        vals <- vals[vals != "ssp245"]
       }
-      if(input$ssp370 == TRUE){
-        vals <- c(vals, "ssp370")
+      if(input$ssp370 == FALSE){
+        vals <- vals[vals != "ssp370"]
       }
-      if(input$ssp585 == TRUE){
-        vals <- c(vals, "ssp585")
+      if(input$ssp585 == FALSE){
+        vals <- vals[vals != "ssp585"]
       }
       vals
     })
@@ -158,27 +149,55 @@ server <- function(input, output) {
       df2() %>% 
       filter(emission %in% df2a())
     })
-      
-    # plot of prec
-    output$prec <- renderPlotly({
-      # prec 
-      prec1 <- d2p() %>% 
-        filter(variable == "prec")
-      plotChart_prec(prec1)
+    
+    # plot of bio5
+    output$bio5 <- renderPlotly({
+      bio5 <- d2p() %>%
+        filter(variable == "bioc_5")
+      plotChart_bio5(bio5)
     })
-    # plot of tmax
-    output$tmax <- renderPlotly({
-      # tmax
-      d2max <- d2p() %>%
-        filter(variable == "tmax")
-      plotChart_tmax(d2max)
+    # plot of bio10
+    output$bio10 <- renderPlotly({
+      bio10 <- d2p() %>%
+        filter(variable == "bioc_10")
+      plotChart_bio10(bio10)
     })
-    # plot of tmin
-    output$tmin <- renderPlotly({
-      # tmax 
-      d2min <- d2p() %>% filter(variable == "tmin")
-      plotChart_tmin(d2min)
+    # plot of bio11
+    output$bio11 <- renderPlotly({
+      bio11 <- d2p() %>%
+        filter(variable == "bioc_11")
+      plotChart_bio11(bio11)
     })
+    # plot of bio15
+    output$bio15 <- renderPlotly({
+      bio15 <- d2p() %>%
+        filter(variable == "bioc_15")
+      plotChart_bio15(bio15)
+    })
+    # # plot of bio18
+    output$bio18 <- renderPlotly({
+      bio18 <- d2p() %>%
+        filter(variable == "bioc_18")
+      plotChart_bio18(bio18)
+    })
+    # plot of bio19
+    output$bio19 <- renderPlotly({
+      bio19 <- d2p() %>%
+        filter(variable == "bioc_19")
+      plotChart_bio19(bio19)
+    })
+    
+    #download data
+    output$downloadData <- downloadHandler(
+      filename = function() {
+        paste(input$variable, "_data.csv", sep = "")
+      },
+      content = function(file) {
+        write.csv(df2(), file, row.names = FALSE)    }
+    )
+# render map  -------------------------------------------------------------
+    callModule(mapServer,"map", df)
+    
 }
 
 # Run the application 

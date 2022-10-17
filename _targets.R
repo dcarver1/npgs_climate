@@ -30,7 +30,7 @@ plan(callr)
 # Replace the target list below with your own:
 list(
   # identifies the input file 
-  tar_target(file, "npgsSiteData.csv", format = "file"),
+  tar_target(file, "npgsSiteData1.csv", format = "file"),
   # convert file to spatial object
   tar_target(locs, processNPGS(file)),
   # process historic data 
@@ -39,6 +39,19 @@ list(
   # tar_target(historicCrop, cropRasters(historic1, locs)),
   # extract values 
   tar_target(historicData, extractVals(historic1, locs)),
+  # process bioclim data 
+  tar_target(bio126, processAllBio("ssp126")),
+  tar_target(bio245, processAllBio("ssp245")),
+  tar_target(bio370, processAllBio("ssp370")),
+  tar_target(bio585, processAllBio("ssp585")),
+  # extract
+  tar_target(bio126_d, extractValsBio(bio126, locs)),
+  tar_target(bio245_d, extractValsBio(bio245, locs)),
+  tar_target(bio370_d, extractValsBio(bio370, locs)),
+  tar_target(bio585_d, extractValsBio(bio585, locs)),
+  
+  # combine information 
+  tar_target(bioAll, bind_rows(bio126_d, bio245_d,bio370_d,bio585_d)),
   # ssp585 "2021-2040","2041-2060","2061-2080","2081-2100"
   tar_target(f585_40, processFuture(scenerio = "ssp585", year = "2021-2040")),
   tar_target(f585_60, processFuture(scenerio = "ssp585", year = "2041-2060")),
@@ -108,7 +121,12 @@ list(
   # bind
   tar_target(allf1d, bind_rows(f1d_40,f1d_60,f1d_80,f1d_100)),
   #bind all
-  tar_target(finalValues, bind_rows(historicData, allf1d, allf2d, allf3d, allf5d))
+  tar_target(finalValues, bindData(d1= historicData, 
+                                   d2=allf1d, 
+                                   d3= allf2d, 
+                                   d4= allf3d, 
+                                   d5= allf5d,
+                                   d6= bioAll))
   # 
   ### old process
   # process future data "ssp585", "ssp126", "ssp245", "ssp370")

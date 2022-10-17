@@ -1,0 +1,13 @@
+name: npgsClimate_test
+title: npgsClimate_test
+username:
+account: carverd
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7302791
+bundleId: 6400858
+url: https://carverd.shinyapps.io/npgsClimate_test/
+when: 1665697343.679
+lastSyncTime: 1665697343.67901
+asMultiple: FALSE
+asStatic: FALSE
