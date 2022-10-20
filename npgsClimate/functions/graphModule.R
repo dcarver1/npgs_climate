@@ -5,8 +5,6 @@ graph_UI<-function(id, sites){
   ns <- NS(id)
   
   tagList(
-    
-    tabPanel(title = "Data Visualization", 
            sidebarLayout(
              sidebarPanel(
                ### this keeps the side bar panel in place but only works on large screens 
@@ -70,24 +68,29 @@ graph_UI<-function(id, sites){
                DT::dataTableOutput(ns("tableAll"))),
       ),
     )
-  )
 }
 
 
 # server ------------------------------------------------------------
-graph_server <- function(input, output, session, data){
-  #### need to look back at how to handle reactive elements within the server call. 
-  
-  # filter dataset based on user input 
-  df2 <- reactive({
-    df %>% 
-      filter(NPGS_Site == input$variable)
+# graph_server <- function(id, data){
+#   shiny::moduleServer(
+#     id, 
+#     function(input, output, session){
+#       df2 <-data() %>%
+#           filter(NPGS_Site == input$variable)
+#     }
+#   )
+# }
+
+graph_server <- function(input,output,session,data){
+  df2 <-reactive({ 
+    data() %>%
+    filter(NPGS_Site == input$variable)
   })
-  
   output$tableAll <- renderDataTable({
     DT::datatable(df2() %>% select(-color))
-  }) 
-  # filter based on selection options  
+  })
+  # filter based on selection options
   df2a <- reactive({
     vals <- c("Historic", "ssp126","ssp245","ssp370","ssp585")
     # if(input$historic == FALSE){
@@ -107,12 +110,10 @@ graph_server <- function(input, output, session, data){
     }
     vals
   })
-  
   d2p <- reactive({
-    df2() %>% 
+    df2() %>%
       filter(emission %in% df2a())
   })
-  
   # plot of bio5
   output$bio5 <- renderPlotly({
     bio5 <- d2p() %>%
@@ -149,8 +150,7 @@ graph_server <- function(input, output, session, data){
       filter(variable == "bioc_19")
     plotChart_bio19(bio19)
   })
-  
-  #download data
+  # #download data
   output$downloadData <- downloadHandler(
     filename = function() {
       paste(input$variable, "_data.csv", sep = "")
@@ -158,5 +158,9 @@ graph_server <- function(input, output, session, data){
     content = function(file) {
       write.csv(df2(), file, row.names = FALSE)    }
   )
+  
 }
+
+
+
 

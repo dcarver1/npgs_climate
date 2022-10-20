@@ -21,16 +21,18 @@ mapServer <- function(input, output, session, data) {
   sp1 <- data %>% 
     st_as_sf(coords = c("Longitude","Latitude"), crs = 4326)
   
-  map <- leaflet(options = leafletOptions(minZoom = 1)) %>%
+  map <- leaflet(options = leafletOptions(minZoom = 2)) %>%
     setView( lng = -105.76356278240084
              , lat = 39.13085942963124
-             , zoom = 3 )%>%
+             , zoom = 2 )%>%
     addProviderTiles("OpenStreetMap", group = "OpenStreetMap")%>%
     addCircleMarkers(
       data = sp1,
       label = ~NPGS_Site,
       fillColor = "goldenrod",
+      weight = 1,
       fillOpacity = 1,
+      
       stroke = F)
   output$mymap <- renderLeaflet({map})
 }

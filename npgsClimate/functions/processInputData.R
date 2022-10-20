@@ -3,7 +3,7 @@ generateSites <- function(){
   sites <- read_csv("npgsSiteData.csv")%>%
     dplyr::select("NPGS site","Address","Type of site","Latitude","Longitude","Include in Crop Science Report (TRUE/FALSE)")%>%
     dplyr::filter(`Include in Crop Science Report (TRUE/FALSE)` == TRUE)%>%
-    dplyr::mutate(ID = seq(1,26,1))
+    dplyr::mutate(ID = seq(1,27,1))  ### this hard code is bad need to replace with either stand alone function or 
   return(sites)
 }
 
