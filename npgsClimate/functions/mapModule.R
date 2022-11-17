@@ -6,7 +6,7 @@ mapUI <- function(id) {
   
   tagList(
     
-    fluidRow(tags$style(type = "#mymap {height: calc(100vh - 250px) !important;}"),
+    fluidRow(tags$style(type = "#mymap {height: calc(100vh - 50px) !important;}"),
              column(1),
              column(10, leafletOutput(ns("mymap"))),
              column(1)
@@ -28,7 +28,7 @@ mapServer <- function(input, output, session, data) {
     addProviderTiles("OpenStreetMap", group = "OpenStreetMap")%>%
     addCircleMarkers(
       data = sp1,
-      label = ~NPGS_Site,
+      label = ~`NPGS site`,
       fillColor = "goldenrod",
       weight = 1,
       fillOpacity = 1,

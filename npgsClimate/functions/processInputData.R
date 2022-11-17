@@ -3,16 +3,17 @@ generateSites <- function(){
   sites <- read_csv("npgsSiteData.csv")%>%
     dplyr::select("NPGS site","Address","Type of site","Latitude","Longitude","Include in Crop Science Report (TRUE/FALSE)")%>%
     dplyr::filter(`Include in Crop Science Report (TRUE/FALSE)` == TRUE)%>%
-    dplyr::mutate(ID = seq(1,27,1))  ### this hard code is bad need to replace with either stand alone function or 
+    dplyr::mutate(ID = seq(1,nrow(.),1))  ### this hard code is bad need to replace with either stand alone function or 
   return(sites)
 }
 
 processData <- function(sites){
-  df <- read_csv("climateAndBioC.csv")%>% ### this is a little odd, it's look toward the project directory
+  df <- read_csv("compiledSiteData.csv")%>%
+    select("ID","variable" , "emission" , "year", "value")%>% ### this is a little odd, it's look toward the project directory
     dplyr::left_join(sites, by = "ID") %>%
     dplyr::select(
       "ID",
-      "NPGS_Site" = "NPGS site",
+      "NPGS site",
       "Site_Category" = "Type of site",
       "variable",
       "emission",
@@ -31,6 +32,10 @@ processData <- function(sites){
     dplyr::mutate(year = case_when(
       year == "2000" ~ "1970-2000",
       TRUE ~ year
+    ))%>% 
+    dplyr::mutate(emission = case_when(
+      emission == "1970" ~ "Historic",
+      TRUE ~ emission
     ))%>% 
     dplyr::mutate(color = case_when(
       emission == "ssp585" ~ "#d7191c",

@@ -5,9 +5,10 @@ account: carverd
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7302791
-bundleId: 6416241
+bundleId: 6469332
 url: https://carverd.shinyapps.io/npgsClimate_test/
-when: 1666116234.95239
-lastSyncTime: 1666116234.95239
+when: 1667431012.57021
+lastSyncTime: 1667431012.57022
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: climateAndBioC.csv|tidyClimateValues.csv
