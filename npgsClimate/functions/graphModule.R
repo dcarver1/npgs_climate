@@ -3,16 +3,17 @@
 
 graph_UI<-function(id, sitesNPGS, sitesInsitu){
   ns <- NS(id)
-  
+
   tagList(
            sidebarLayout(
              sidebarPanel(
-               ### this keeps the side bar panel in place but only works on large screens 
+               ### this keeps the side bar panel in place but only works on large screens
                # style = "position: fixed; overflow: visible;",
-               h4("Select your location of interest from the drop down."),
+               h4("Select location of interest from the drop down menu."),
                p(
-                 "NPGS sites are locations where germplasma is store or regenerated.",
-                 "Insitu sites are wild populations protected as genetic resource reserves."
+                 "NPGS sites are locations where plant genetic resources are 
+                 maintained or regenerated (see NPGS Site Location Map tab)",
+                 "In situ sites are wild populations protected as genetic resource reserves."
                ),
                # selectInput(ns("variable"), "Location:", sites ),
                selectInput(
@@ -21,27 +22,32 @@ graph_UI<-function(id, sitesNPGS, sitesInsitu){
                   choices = list(
                  "NPGS Sites" = sitesNPGS,
                  "Insitu Sites" = sitesInsitu)),
-               
-               
-               
-               h4("Select boxes to toggle which Climate Futures will appear on the plots."),
+
+
+
+               h4("Select boxes to toggle which future climate prediction 
+                  shared socioeconomic pathway (SSP) will appear on the plots."),
                ### the plots require a historical reference data so I'm excluding the option to re
-               ### historical reference for the time being. 
-               # checkboxInput("historic", label = "1970-2000 measured average", value = TRUE),
-               checkboxInput(ns("ssp126"), label = "Sustainability(ssp126)", value = TRUE),
-               checkboxInput(ns("ssp245"), label = "Middle of the road(ssp245)", value = TRUE),
-               checkboxInput(ns("ssp370"), label = "Inequality(ssp370)", value = TRUE),
-               checkboxInput(ns("ssp585"), label = "Fossil-Fueled Development(ssp585)", value = TRUE),
-               "Read about Share Socialeconomic Pathways ", 
+               ### historical reference for the time being.
+               checkboxInput(ns("historic"), label = "1970-2000 measured average (historic)", value = TRUE),
+               checkboxInput(ns("ssp126"), label = "Sustainability (SSP1-2.6)", value = TRUE),
+               checkboxInput(ns("ssp245"), label = "Middle of the road (SSP2-4.5)", value = TRUE),
+               checkboxInput(ns("ssp370"), label = "Inequality (SSP3-7.0)", value = TRUE),
+               checkboxInput(ns("ssp585"), label = "Fossil-fueled development (SSP5-8.5)", value = TRUE),
+               "Read about Shared Socioeconomic Pathways (",
+               tags$a(href = "https://www.ipcc.ch/assessment-report/ar6/",
+                      "source", target = "_blank"),
+               "/",
                tags$a(href = "https://en.wikipedia.org/wiki/Shared_Socioeconomic_Pathways",
-                      "here.", target = "_blank"),
+                      "summary", target = "_blank"),
+               ")",
                br(),
-               "Read more about the bioclimatic indicators ", 
+               "Read more about the bioclimatic Indicators ",
                tags$a(href = "https://www.worldclim.org/data/bioclim.html",
                       "here.", target = "_blank"),
-               
+
              ),
-             
+
              # Show a plot of the generated distribution
              # [1] "bioc_5"  "bioc_6"  "bioc_7"  "bioc_8"  "bioc_9"  "bioc_13" "bioc_14" "bioc_16" "bioc_17"
              # [10] "bioc_18" "bioc_19"
@@ -49,66 +55,88 @@ graph_UI<-function(id, sitesNPGS, sitesInsitu){
                tabsetPanel(
                  tabPanel(title = "Temperature",
                           tempText(),
-                          h3("BIO5 = Max Temperature of Warmest Month"),
-                          "Mean maximum temperature of the warmest month of the year (c)",
+                          h3("Average minimum and maximum temperature"),
+                          plotlyOutput(ns("tempMonth")),
+                          #figure caption 
+                          p(
+                            "The figure above illustrates the minimum and maximum temperature for each month averaged over a 30 year period (1970-2000).
+                            This figure can be used as a quick reference for evaluating the specific monthly and quarterly ranges reference 
+                            by the bioclimatic indicators."
+                          ),
+                          
+                          h3("BIO5 = Maximum Temperature of Warmest Month"),
+                          "Mean maximum temperature of the warmest month of the year (",intToUtf8(176),"C)",
                           plotlyOutput(ns("bio5")),
-                          
-                          h3("BIO6 =  Min Temperature of Coldest Month"),
-                          " Min Temperature of Coldest Month (c)",
+
+                          h3("BIO6 = Minimum Temperature of Coldest Month"),
+                          "Minimum Temperature of Coldest Month (",intToUtf8(176),"C)",
                           plotlyOutput(ns("bio6")),
-                          
-                          h3("BIO8 =Mean Temperature of Wettest Quarter"),
-                          "Mean Temperature of Wettest Quarter (c)",
+
+                          h3("BIO8 = Mean Temperature of Wettest Quarter"),
+                          "Mean Temperature of Wettest Quarter (",intToUtf8(176),"C)",
                           plotlyOutput(ns("bio8")),
-                          
+
                           h3("BIO9 = Mean Temperature of Driest Quarter"),
-                          "Mean Temperature of Driest Quarter (c)",
+                          "Mean Temperature of Driest Quarter (",intToUtf8(176),"C)",
                           plotlyOutput(ns("bio9")),
-                          
+
                           h3("BIO10 = Mean Temperature of Warmest Quarter"),
-                          "Mean Temperature of Warmest Quarter (c)",
+                          "Mean Temperature of Warmest Quarter (",intToUtf8(176),"C)",
                           plotlyOutput(ns("bio10")),
-                          
+
                           h3("BIO11 = Mean Temperature of Coldest Quarter"),
-                          "Mean Temperature of Coldest Quarter (c)",
+                          "Mean Temperature of Coldest Quarter (",intToUtf8(176),"C)",
                           plotlyOutput(ns("bio11")),
-                          
+
 
                  ),
                  tabPanel(title = "Precipitation",
                           precText(),
+                          h3("Total Monthly Precipitation"),
+                          plotlyOutput(ns("precMonth")),
+                          p(
+                            "The figure above illustrates the total precipitation for each month averaged over a 30 year period (1970-2000).
+                            This figure can be used as a quick reference for evaluating the specific monthly and quaterly ranges reference 
+                            by the bioclimatic indicators."
+                          ),
+                          
+      
                           h3("BIO13 = Precipitation of Wettest Month (mm)"),
-                          "Precipitation of Wettest Month ",
+                          "Total precipitation of wettest month ",
                           plotlyOutput(ns("bio13")),
-                          
+
                           h3("BIO14 = Precipitation of Driest Month (mm)"),
-                          "Precipitation of Driest Month ",
+                          "Total precipitation of driest month ",
                           plotlyOutput(ns("bio14")),
-                          
+
                           h3("BIO16 = Precipitation of Wettest Quarter (mm)"),
-                          "Precipitation of Wettest Quarter ",
+                          "Total precipitation of wettest quarter of the year",
                           plotlyOutput(ns("bio16")),
-                          
-                          h3("BIO17 = Precipitation of Driest Quarter  (mm)"),
-                          "Precipitation of Driest Quarter  ",
+
+                          h3("BIO17 = Precipitation of Driest Quarter (mm)"),
+                          "Total precipitation of driest quarter of the year ",
                           plotlyOutput(ns("bio17")),
-                          
+
                           h3("BIO18 = Precipitation of Warmest Quarter (mm)"),
                           "Total precipitation of the warmest quarter of the year ",
                           plotlyOutput(ns("bio18")),
-                          # 
+                          #
                           h3("BIO19 = Precipitation of Coldest Quarter (mm)"),
-                          "Precipitation of the coldest quarter of the year ",
+                          "Total precipitation of the coldest quarter of the year",
                           plotlyOutput(ns("bio19")),
                  )
                ),
-               
-               ### table data 
-               h3("tabular data for site"),
-               "This table contains all the date associated with the individual site. It can be sorted. ",
+
+               ### table data
+               h3("Tabular data for site"),
+               "This table contains all the data associated with the individual site. It can be sorted.",
                br(),
                downloadButton(outputId = ns("downloadData"),
-                              label = "Download data for this location"),
+                              label = "Download bioclimatic indicator data for this location"),
+               br(),
+               br(),
+               downloadButton(outputId = ns("downloadDataM"),
+                              label = "Download monthly precipitation and minimum/maximum temperature data for this location"),
                br(),
                br(),
                DT::dataTableOutput(ns("tableAll"))),
@@ -118,48 +146,61 @@ graph_UI<-function(id, sitesNPGS, sitesInsitu){
 
 
 # server ------------------------------------------------------------
-# graph_server <- function(id, data){
-#   shiny::moduleServer(
-#     id, 
-#     function(input, output, session){
-#       df2 <-data() %>%
-#           filter(NPGS_Site == input$variable)
-#     }
-#   )
-# }
-
-graph_server <- function(input,output,session,data){
-  df2 <-reactive({ 
+graph_server <- function(input,output,session,data, dataM){
+  # bioclim data used within the charts and download 
+  df2 <-reactive({
     data() %>%
     filter(`NPGS site` == input$variable)
   })
+  # monthly tmax, tmin, prec available for download only 
+  df2m <- reactive({
+    dataM() %>%
+      filter(`NPGS.site` == input$variable)
+  })
+  
   output$tableAll <- renderDataTable({
     DT::datatable(df2() %>% select(-color))
   })
   # filter based on selection options
   df2a <- reactive({
-    vals <- c("Historic", "ssp126","ssp245","ssp370","ssp585")
-    # if(input$historic == FALSE){
-    #   vals <- vals[vals != "Historic"]
-    # }
+    vals <- c("historic", "SSP126","SSP245","SSP370","SSP585")
+    if(input$historic == FALSE){
+      vals <- vals[vals != "historic"]
+    }
     if(input$ssp126 == FALSE){
-      vals <- vals[vals != "ssp126"]
+      vals <- vals[vals != "SSP126"]
     }
     if(input$ssp245 == FALSE){
-      vals <- vals[vals != "ssp245"]
+      vals <- vals[vals != "SSP245"]
     }
     if(input$ssp370 == FALSE){
-      vals <- vals[vals != "ssp370"]
+      vals <- vals[vals != "SSP370"]
     }
     if(input$ssp585 == FALSE){
-      vals <- vals[vals != "ssp585"]
+      vals <- vals[vals != "SSP585"]
     }
     vals
   })
+  
   d2p <- reactive({
     df2() %>%
       filter(emission %in% df2a())
   })
+  
+  # plot of monthly values 
+  output$tempMonth <- renderPlotly({
+    temp1 <- df2m()%>%
+      filter(variable != "prec")
+    plotMonthlyTemp(temp1)
+  })
+  
+  output$precMonth <- renderPlotly({
+    prec1 <- df2m()%>%
+      filter(variable == "prec")
+    plotMonthlyPrec(prec1)
+  })
+  
+  
   # plot of bio5
   output$bio5 <- renderPlotly({
     bio5 <- d2p() %>%
@@ -196,8 +237,8 @@ graph_server <- function(input,output,session,data){
       filter(variable == "bioc_11")
     plotChart_bio11(bio11)
   })
-  
-  
+
+
   # plot of bio13
   output$bio13 <- renderPlotly({
     bio13 <- d2p() %>%
@@ -235,17 +276,20 @@ graph_server <- function(input,output,session,data){
       filter(variable == "bioc_19")
     plotChart_bio19(bio19)
   })
-  # #download data
+  # #download data - bioclim 
   output$downloadData <- downloadHandler(
     filename = function() {
-      paste(input$variable, "_data.csv", sep = "")
+      paste(input$variable, "_bioclimatic_data.csv", sep = "")
     },
     content = function(file) {
-      write.csv(df2(), file, row.names = FALSE)    }
+      write.csv(df2() %>% select(-"color"), file, row.names = FALSE)    }
+  )
+  output$downloadDataM <- downloadHandler(
+    filename = function() {
+      paste(input$variable, "_monthy_data.csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(df2m() %>% select(-X), file, row.names = FALSE)    }
   )
   
 }
-
-
-
-

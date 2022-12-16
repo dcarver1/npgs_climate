@@ -9,6 +9,8 @@
 library(targets)
 library(future)
 library(future.callr)
+# for troubleshooting 
+pacman::p_load("targets","terra", "dplyr", "tidyr", "sf", "readr","tmap", "purrr","tictoc")
 
 # Set target options:
 tar_option_set(
@@ -45,7 +47,8 @@ list(
   tar_target(b_box, bbox(locs)),
   
   # process historic data 
-  tar_target(historic1, processWC(b_box)),
+  tar_target(historicWC, processHistWc(b_box)),
+  tar_target(historicMonth, processHistMonthly(b_box)),
 
   # Assocaited climate data with individual sites. 10 models usesd for all varibles
   tar_target(future126, processAllBio("ssp126", boundingBox = b_box)),
@@ -53,13 +56,29 @@ list(
   tar_target(future370, processAllBio("ssp370", boundingBox = b_box)),
   tar_target(future585, processAllBio("ssp585", boundingBox = b_box)),
   # bind rasters across years 
-  tar_target(his1, bindRasts(historic1,locs)),
-  tar_target(fc126, bindRasts(future126,locs)),
-  tar_target(fc245, bindRasts(future245,locs)),
-  tar_target(fc370, bindRasts(future370,locs)),
-  tar_target(fc585, bindRasts(future585,locs)),
-  # Aggregates d
-  tar_target(vals, bindAll(his1,fc126,fc245,fc370,fc585,locs))
+  tar_target(hist1, bindRasts(historicWC)),
+  tar_target(fc126, bindRasts(future126)),
+  tar_target(fc245, bindRasts(future245)),
+  tar_target(fc370, bindRasts(future370)),
+  tar_target(fc585, bindRasts(future585)),
+  
+  
+  # process the tmin,tmax,prec data 
+  tar_target(future126m, processAllMonthly("ssp126", boundingBox = b_box)),
+  tar_target(future245m, processAllMonthly("ssp245", boundingBox = b_box)),
+  tar_target(future370m, processAllMonthly("ssp370", boundingBox = b_box)),
+  tar_target(future585m, processAllMonthly("ssp585", boundingBox = b_box)),
+  
+  # bind rasters across years 
+  tar_target(histM, bindRasts(historicMonth)),
+  tar_target(fc126m, bindRasts(future126m)),
+  tar_target(fc245m, bindRasts(future245m)),
+  tar_target(fc370m, bindRasts(future370m)),
+  tar_target(fc585m, bindRasts(future585m)),
+  # Aggregates data
+  tar_target(valsWC, bindWC(hist1,fc126,fc245,fc370,fc585, locs)), #50gb memory allocation
+  tar_target(valsM, bindMonth(histM,fc126m,fc245m,fc370m,fc585m,locs))
+
 )
 # export summary material and send data to shiny app 
 source("compiledSiteData.R")

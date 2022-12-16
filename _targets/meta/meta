@@ -1,17 +1,19 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|31dde7719228e820|||||||||||||||
+.Random.seed|object|22b9263e81d5653a|||||||||||||||
 allf1d|stem|60e07787eb1b5d03|1600bfc28d28af22|c2538ae5b4fc700a|-733134136||t19248.910625s|4d2d5f9c3677a02e|1437|rds|local|vector|||0||
 allf2d|stem|c3881549c37bbbd7|69c7798d01135e57|0b7452daacaf911d|1327868467||t19248.910625s|d2214d06b76702f9|1438|rds|local|vector|||0||
 allf3d|stem|2e78654866230808|4f99ed3a5ec909ee|952513149d057f22|2020638740||t19248.910625s|9ef5b03992486a66|1444|rds|local|vector|||0||
 allf5d|stem|7c8e80d7ecffe062|a37a726d00f1276c|56e5e0b9e39cd0b2|-6190012||t19248.910625s|1c9eaeb5e7ad96a8|1503|rds|local|vector|||0||
-b_box|stem|3d21fb1be0782532|8b7a8a59edd7669f|4cd70502e48df4e4|1275638501||t19298.9167824074s|4c59dd5e206ded9d|524|rds|local|vector|||4.54||
-bbox|function|b65a524c66afedfe|||||||||||||||
+b_box|stem|ce33daa37d3eea07|8b7a8a59edd7669f|52750993c0cf6686|1275638501||t19340.7337384259s|4c59dd5e206ded9d|524|rds|local|vector|||2.684||
+bbox|function|a8fec681af32905e|||||||||||||||
 bindall|function|ad666660ce3dab47|||||||||||||||
-bindAll|function|d512640ac10daef9|||||||||||||||
+bindAll|function|768e563705d0d2b1|||||||||||||||
 bindCrop|function|da4cb0a10a12bcb6|||||||||||||||
 bindData|function|2b29fe71b3e846a8|||||||||||||||
+bindMonth|function|3d8286e257ee5d40|||||||||||||||
 bindrasters|function|80c76d566b7a5470|||||||||||||||
-bindRasts|function|da4cb0a10a12bcb6|||||||||||||||
+bindRasts|function|83acf022809f7eb0|||||||||||||||
+bindWC|function|d512640ac10daef9|||||||||||||||
 bio126|stem|2b8b42e10df550ca|49a9e2a2d9736b99|1dc30d9735066797|-908270667||t19248.6781711806s|4fababdb36021bf5|431308211|rds|local|vector|||47.47||
 bio126_d|stem|f5962f2528fe68d7|46882f97b2a8a271|d7047296153f336f|10940161||t19248.8420138889s|a261a80dfcbd84d2|2296|rds|local|vector|||28.72||
 bio245|stem|a89ac75be97ac7d6|f81f5a461e69fd09|1dc30d9735066797|-384425251||t19248.7017565972s|e8e10916fdb486b1|431602117|rds|local|vector|||47.883||
@@ -72,30 +74,48 @@ f5d_100|stem|048454072fdacb81|9d3e2cb41d522fd4|be1b72e3e4a27c6d|920969190||t1924
 f5d_40|stem|3c443905fe255595|f3ecd42a043864dc|cd40b98ad774d1db|-2024198934||t19248.9290740741s|b04b1df086a693ba|641|rds|local|vector|||0.84||
 f5d_60|stem|a5dfd22542370afb|cc9a6bc9de7e4b67|e777b62e3d9a6f41|333269044||t19248.929375s|6122300abc460529|604|rds|local|vector|||0.97||
 f5d_80|stem|f0fd0396bb92ef83|8a68ca81f67b9891|122667a0d8fdecc2|-448142254||t19248.9290972222s|1a3e77433a71320b|598|rds|local|vector|||0.79||
-fc126|stem|1200040fa4b179c1|2f88009fe7976659|13a3716b67120192|1969315988||t19298.9359027778s|b019f2bd6d625d3c|37606488|rds|local|vector|||7.51||
-fc245|stem|1357b5eb7e2dd8e4|92b2c3dff948b553|3b6b400f5ba60bc3|-562974817||t19298.9362268519s|48bb5ed05ea807de|37596185|rds|local|vector|||7.19||
-fc370|stem|fb756a517020a0fc|5849e7a6cb9941db|324563fe859e5ef3|-1747501274||t19298.9360648148s|3e738766ea9f2924|37635252|rds|local|vector|||6.97||
-fc585|stem|9ca4404637a72163|224cf095b6e4f9aa|2d20e177c1ad5a98|1150974124||t19298.9363888889s|e34fbddb2be7fc8b|37685546|rds|local|vector|||7.17||
+fc126|stem|51513b38aa2b053d|dde278f4d5d2d946|e294bd00ff1d6c59|1969315988||t19340.7446140046s|87770a75d1770b2f|73048733|rds|local|vector|||5.385||
+fc126m|stem|0960a90be6527539|88906fe2196ba911|a70bfa65380b9bfc|1887983847||t19340.7437782407s|1ae404371610a08b|200830165|rds|local|vector|||10.191||
+fc245|stem|830d8cc37b96f90a|a935ed8f6a367d72|6620b96c8085de8e|-562974817||t19340.7400225694s|9e32e7ba1f943c2c|73519218|rds|local|vector|||6.12||
+fc245m|stem|fd6f4207c312aab4|cc0d1f5a9604b732|5f4fb4f5ed68cbd9|1876962085||t19340.7471368056s|dda201493cba3b62|206618877|rds|local|vector|||9.497||
+fc370|stem|01d357de4c7c88ee|591b168fe8c06ae6|09b07446382622e5|-1747501274||t19340.7475277778s|2c8074a8876e7bd4|74174104|rds|local|vector|||5.309||
+fc370m|stem|c4289621b800fd82|1f8d622f8c8c2dec|ef6142e1e53273e6|1451842764||t19340.7430868056s|6b10a09a777badf9|208123736|rds|local|vector|||9.651||
+fc585|stem|c9c21e9b72ae84e4|2c39e45a0a07adb0|e099aa62beb2ae23|1150974124||t19340.7439311343s|ec3fbe9c7b1a319a|74838992|rds|local|vector|||5.365||
+fc585m|stem|fbf9009877d75984|0f4a8a6d331c0c3a|8017534d983ade2c|-330861704||t19340.7427005787s|5141f215e8f4c2eb|209578535|rds|local|vector|||10.033||
 file|stem|5fbd91b1bb16adc8|4b01b390bd7ff38e|ef46db3751d8e999|-1301001980|npgsSiteData.csv|t19298.9162037037s|3d88e4175faf6898|8671|file|local|vector|||6.28||
 finalValues|stem|6efbf3d01a04e796|f6d42705c9b2cdc5|22aefae0ee9140ae|1329551934||t19248.9295833333s|e35c8aba85f1a133|13550|rds|local|vector|||0||
 future|stem|d32ecd1f727405a7|75f0a013e506690a|3c1539889daedeae|1672452171||t19235.9400103009s|a3e03e751d3436ec|823415|rds|local|vector|||826.06||
-future126|stem|f6e1a3c8fbda5a7f|bb9ef86f6447bf26|9bda5d4e25a7bc25|-2004271213||t19298.935162037s|ba7e3d0e29fd26a4|37607526|rds|local|vector|||23.83||
-future245|stem|8bd1b526a077d6f7|29587f9d519738b7|9bda5d4e25a7bc25|-1881210773||t19298.9355324074s|c3df0acd714fa7ba|37597670|rds|local|vector|||23.72||
-future370|stem|5fe55f99e70b605f|7206b4ddd5250cf5|9bda5d4e25a7bc25|555496271||t19298.9353472222s|970c639517d1da40|37636457|rds|local|vector|||23.81||
-future585|stem|1d969b2fb1d6aded|86a4defab3f25861|9bda5d4e25a7bc25|1639941720||t19298.9357175926s|3b90014003bdbc2e|37687067|rds|local|vector|||21.33||
-his1|stem|ca69fcde9088d47d|61e544a88b6f9701|39a5cf71e00cdd17|1856441152||t19298.935s|62e72ad213087515|16805165|rds|local|vector|||6.04||
+future126|stem|ce5e99cfcce81736|bb9ef86f6447bf26|6694a460ce61e1cd|-2004271213||t19340.7443517361s|ff365040873c4892|73049247|rds|local|vector|||196.401|GDAL Message 1 tmpRtmprDyjafspat_e5shMCdVzFFF7Il_1360580.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmprDyjafspat_w1seIM48Q3UQ1xn_1360580.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmprDyjafspat_BjEYs7pmoDzQMuo_1360580.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.|
+future126m|stem|a404ce72346337cf|36e49c49295e98da|16507f3b43b4313f|225476214||t19340.7419105324s|f6efcb29bfd77f15|200830698|rds|local|vector|||289.885|GDAL Error 1 TIFFFillStripRead error at scanline 4294967295 got 0 bytes, expected 102550. GDAL Error 1 TIFFReadEncodedStrip failed.. GDAL Error 1 mediaduneT7usdacropSciencenpgs_climateclimateDatafutureMPIESM12HRwc2.1_2.5m_tmin_MPIESM12HR_ssp126_20412060.tifejup_ps_.tmp, band 1 IReadBlock failed at X offset 0, Y offset 1026 TIFFReadEncodedStrip failed.. GDAL Error 1 TIFFFillStripRead error at scanline 4294967295 got 0 bytes, expected 69599. GDAL Error 1 TIFFReadEncodedStrip failed.. GDAL Error 1 mediaduneT7usdacropSciencenpgs_climateclimateDatafutureMPIESM12HRwc2.1_2.5m_tmin_MPIESM12HR_ssp126_20412060.tifejup_ps_.tmp, band 1 IReadBlock failed at X offset 0, Y offset 1550 TIFFReadEncodedStrip failed.. GDAL Message 1 tmpRtmpjOg5bZspat_hqxZdsPDPcTESND_1357775.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpjOg5bZspat_gPp90KVc4SlEXxa_1357775.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpjOg5bZspat_Al9IXTJr2mLHf1M_1357775.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpjOg5bZspat_gBSYKNU6qFIHHSP_1357775.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpjOg5bZspat_2ALZ8UmqChNHIEV_1357775.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpjOg5bZspat_eM7Ltl56paP1o8V_1357775.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.|
+future245|stem|22c8ec38812e05eb|29587f9d519738b7|6694a460ce61e1cd|-1881210773||t19340.7397384259s|6dfc79c8329a4908|73520387|rds|local|vector|||132.098|GDAL Message 1 tmpRtmpDTgurqspat_gZKcj4f0rDJ69e3_1357743.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.|
+future245m|stem|bd66893188dab9b4|9b6555b74913b165|16507f3b43b4313f|157777713||t19340.7465072917s|a233d95ef8114551|206619577|rds|local|vector|||290.693|GDAL Message 1 tmpRtmpnE9RBaspat_w7WMSjOVUrPStGe_1361111.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpnE9RBaspat_JyzGkVW0hjJX0mA_1361111.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpnE9RBaspat_b7S9RhpxasQzXNY_1361111.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpnE9RBaspat_O0FEG9KBOabb5mB_1361111.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpnE9RBaspat_EV0nrw2kV4gQVk3_1361111.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpnE9RBaspat_mwbgE9yX3ZkjOBP_1361111.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpnE9RBaspat_JRUKJy4C8Ywkxth_1361111.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.|
+future370|stem|cbf0288a5b0a3a39|7206b4ddd5250cf5|6694a460ce61e1cd|555496271||t19340.7466704861s|84c07aebd933f33f|74174713|rds|local|vector|||234.203|GDAL Message 1 tmpRtmpf6p5Mqspat_zY6BLV0GIpKQu9K_1361750.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpf6p5Mqspat_hpltGAgaXgLY6tQ_1361750.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpf6p5Mqspat_GZBo1VRwJvS5IZB_1361750.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpf6p5Mqspat_GMpBJWa9U6sBIgo_1361750.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.|
+future370m|stem|c87aaf185f005256|345b2a3145ba6a62|16507f3b43b4313f|-1731545567||t19340.7422832176s|75a56e13bf8b0577|208126184|rds|local|vector|||310.023|GDAL Message 1 tmpRtmpd4nd6espat_8t0gs0fsLAnFIBt_1357792.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpd4nd6espat_VGZUk7ZP1v8TZL4_1357792.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpd4nd6espat_ur1yJQ8Vn3KYeXr_1357792.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpd4nd6espat_65cM4TEC87Zv8ca_1357792.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpd4nd6espat_4fThO5tqtz9RjwU_1357792.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpd4nd6espat_46oMoio79mtsUxU_1357792.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpd4nd6espat_BWx46WGbiszQXc7_1357792.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.|
+future585|stem|018348c00d43a466|86a4defab3f25861|6694a460ce61e1cd|1639941720||t19340.7433103009s|b3444cf5523ac138|74839259|rds|local|vector|||195.461|GDAL Message 1 tmpRtmpGPO9RLspat_ZWnPeY2pZyGIXaQ_1359983.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpGPO9RLspat_VAQSmmy4SKiVBrC_1359983.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpGPO9RLspat_JPOocp64gIcRNzX_1359983.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.|
+future585m|stem|b598e53cdfcf6723|ec403f58a98e7cb2|16507f3b43b4313f|1250492931||t19340.7415251157s|e8a559d7cc939896|209579807|rds|local|vector|||263.719|GDAL Message 1 tmpRtmpTTQVATspat_MKL99B3EPMEaRcm_1357758.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpTTQVATspat_uWCjTBUxqVI5YTu_1357758.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpTTQVATspat_EhL25XvdnZHrGXH_1357758.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpTTQVATspat_qUlp2OdOLWrK3VL_1357758.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.. GDAL Message 1 tmpRtmpTTQVATspat_RKxvoXlLzjVnMB5_1357758.tif Metadata exceeding 32000 bytes cannot be written into GeoTIFF. Transferred to PAM instead.|
+his1|stem|8d01baf1ae176fb1|a521a5c40f2d71a2|fee2e60f715208f0|1856441152||t19317.797521412s|2e7e62f3af6fc83f|16805166|rds|local|vector|||3.668||
+hist1|stem|185742f5d03322db|8388f3869b80df6d|55682614933de35e|-1520427653||t19334.7852188657s|94c0e7068130f734|16805199|rds|local|vector|||0.364||
+histM|stem|943f0d4499acfbc0|e161b5d6d305e107|760b36fdb9148bfa|1329033499||t19334.7851787037s|c4934f45e239925a|46047714|rds|local|vector|||1.315||
 historic|stem|0cb190e6952900f8|35f4afb5f4868824|a022e4d88c39e25b|509678239||t19237.9184072917s|58772b208bb3c33b|420|rds|local|vector|||3.248||
 historic1|stem|ca69fcde9088d47d|108a94ff4b674930|0fa34343e0ff10f7|-1673220386||t19298.9348148148s|62e72ad213087515|16805165|rds|local|vector|||7.63||
 historicCrop|stem|c50d3336070483ce|7bb82a6c7ca9ee45|e539ba6c2bed7d2e|-1796998503||t19241.7011012731s|c27fdeed443ebce4|7016996|rds|local|vector|||3.848||
 historicData|stem|297588c0bc33547e|1da3c646062a4cba|9f8502fc0ea1b1fa|1828293087||t19298.8321990741s|d8d7c0bbf134d1ba|1845|rds|local|vector|||0.27||
+historicMonth|stem|943f0d4499acfbc0|859ee826ccd98058|ff67cdb9320c46e7|-1960080344||t19335.140575s|c4934f45e239925a|46047714|rds|local|vector|||2.21||
+historicWC|stem|185742f5d03322db|1c44eaee5513116e|c72d15976e34b8b9|1020139141||t19335.1494078704s|94c0e7068130f734|16805199|rds|local|vector|||1.043||
 locs|stem|2a39f6351b0377cf|458b88266141fcbf|af9c5ba6abbd091c|2145063807||t19298.916712963s|a9f7432f9077d74b|3607|rds|local|vector|||5.03||
 processAll|function|8f0c9eb6dbefa27c|||||||||||||||
-processAllBio|function|d8c29de4a24c9e74|||||||||||||||
+processAllBio|function|e72329f80cf2e34b|||||||||||||||
+processAllMonthly|function|c0596bee435ffba0|||||||||||||||
 processFuture|function|ee2e46a654e8320f|||||||||||||||
-processFutureBio|function|cf4e4d82364e3487|||||||||||||||
+processFutureBio|function|4ec9f6575f25e0cc|||||||||||||||
+processFutureMonthly|function|777e2c0eaea257d9|||||||||||||||
+processHistMonthly|function|ed9d11e502ef3c5b|||||||||||||||
+processHistWc|function|64ae8695ac3866fd|||||||||||||||
 processNPGS|function|07befa44572a86e4|||||||||||||||
 processWC|function|87c6da3f53d0ad82|||||||||||||||
 r1|object|4c28d0548cdd18de|||||||||||||||
 rasters|stem||ae9d0b113929431a|9fbfa10c0732977e|1235467876||t19237.6966619717s||0|rds|local|vector|||1.592||external pointer is not valid
 rasters1|stem|8167e3272500a1d6|fe032eb6e34a1ed4|838b6c88f7e44ac5|1900359322||t19241.7413193287s|79cd2c538e7eafc9|77811091|rds|local|vector|||40.368||
-vals|stem|e7105558c01b0b63|0ac2a39a063d0186|ce04ca5959d54800|-1678535226||t19298.9368055556s|b7b1d452f007aa62|19826|rds|local|vector|||18.26||
+vals|stem|ec615f5931ab4c0c|1cc9746d4d22d725|ea7afdc98567a97d|-1678535226||t19325.7862628472s||103360|rds|local|vector|||0.001||unused argument locs
+valsM|stem|f5b1f475f0f4d731|2f9e751b2938acaa|289d3e993b797c83|1705808210||t19340.7479530093s|a246a3a4ded28832|80196|rds|local|vector|||25.863||
+valsWC|stem|221646fb16dec8b1|58f774f6480b33f1|417fda41b8860c6b|-834959006||t19340.7478457176s|ecb07e238ebc149d|28320|rds|local|vector|||11.212||

@@ -6,7 +6,7 @@ mapUI <- function(id) {
   
   tagList(
     
-    fluidRow(tags$style(type = "#mymap {height: calc(100vh - 50px) !important;}"),
+    fluidRow(tags$style(type = "#mymap {height: calc(100vh + 150px) !important;}"),
              column(1),
              column(10, leafletOutput(ns("mymap"))),
              column(1)
@@ -29,10 +29,12 @@ mapServer <- function(input, output, session, data) {
     addCircleMarkers(
       data = sp1,
       label = ~`NPGS site`,
-      fillColor = "goldenrod",
-      weight = 1,
-      fillOpacity = 1,
-      
-      stroke = F)
+      fillColor = "#005895",
+      weight = 2,
+      fillOpacity = 0.05,
+      stroke = TRUE,
+      radius = 8,
+      color = "#006a52"
+        )
   output$mymap <- renderLeaflet({map})
 }
